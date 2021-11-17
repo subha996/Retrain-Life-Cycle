@@ -1,0 +1,7 @@
+---
+  alpha: [0.2, 0.4]
+  fit_intercept: [True, False]
+  normalize: [True, False]
+  solver: ['auto']
+  tol: [0.01, 0.1]
+  max_iter: [100]

@@ -1,0 +1,9 @@
+---
+  alpha: [0.2]
+  l1_ratio: [0.8]
+  fit_intercept: [True, False]
+  normalize: [True, False]
+  max_iter: [100]
+  tol: [0.1]
+  positive: [True, False]
+  selection: ['cyclic']

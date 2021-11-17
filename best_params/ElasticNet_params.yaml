@@ -1,0 +1,8 @@
+alpha: 0.2
+fit_intercept: false
+l1_ratio: 0.8
+max_iter: 100
+normalize: true
+positive: true
+selection: cyclic
+tol: 0.1

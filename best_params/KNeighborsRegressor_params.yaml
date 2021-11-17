@@ -1,0 +1,4 @@
+algorithm: auto
+leaf_size: 10
+n_neighbors: 4
+p: 2

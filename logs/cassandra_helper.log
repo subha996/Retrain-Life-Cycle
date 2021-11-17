@@ -1,0 +1,437 @@
+2021-10-30 01:24:29,406 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:24:30,885 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:24:30,886 - INFO - send_csv - Connecting to cluster
+2021-10-30 01:24:41,848 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 01:24:41,848 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 01:24:42,039 - ERROR - send_csv - Error in send_csv methode.'utf-8' codec can't decode byte 0xdc in position 17: invalid continuation byte
+2021-10-30 01:24:42,039 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 01:24:45,056 - INFO - send_csv - Session is closed.
+2021-10-30 01:25:34,020 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:25:35,038 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:25:35,038 - INFO - send_csv - Connecting to cluster
+2021-10-30 01:25:45,600 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 01:25:45,600 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 01:25:45,601 - ERROR - send_csv - Error in send_csv methode.'utf-8' codec can't decode byte 0xdc in position 17: invalid continuation byte
+2021-10-30 01:25:45,602 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 01:25:48,465 - INFO - send_csv - Session is closed.
+2021-10-30 01:28:33,692 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:28:34,778 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:28:34,779 - INFO - send_csv - Connecting to cluster
+2021-10-30 01:28:45,367 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 01:28:45,367 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 01:28:45,368 - ERROR - send_csv - Error in send_csv methode.'utf-8' codec can't decode byte 0xdc in position 17: invalid continuation byte
+2021-10-30 01:28:45,368 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 01:28:48,223 - INFO - send_csv - Session is closed.
+2021-10-30 01:29:08,936 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:29:10,057 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:29:10,057 - INFO - send_csv - Connecting to cluster
+2021-10-30 01:29:20,603 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 01:29:20,603 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 01:29:21,301 - INFO - send_csv - Creating table on insurance1 with cass_test
+2021-10-30 01:29:22,886 - INFO - send_csv - Table cass_test created successfully.
+2021-10-30 01:29:22,886 - INFO - send_csv - Inserting data into cass_test
+2021-10-30 01:29:22,886 - ERROR - send_csv - Error in inserting data into cass_test.unsupported operand type(s) for -: 'str' and 'str'
+2021-10-30 01:29:22,886 - ERROR - send_csv - Error in send_csv methode.unsupported operand type(s) for -: 'str' and 'str'
+2021-10-30 01:29:22,886 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 01:29:22,886 - INFO - send_csv - Session is closed.
+2021-10-30 01:30:59,722 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:31:00,846 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:31:00,846 - INFO - send_csv - Connecting to cluster
+2021-10-30 01:31:14,265 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 01:31:14,266 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 01:31:14,276 - INFO - send_csv - Creating table on insurance1 with casstest
+2021-10-30 01:31:15,731 - INFO - send_csv - Table casstest created successfully.
+2021-10-30 01:31:15,731 - INFO - send_csv - Inserting data into casstest
+2021-10-30 01:31:15,731 - ERROR - send_csv - Error in inserting data into casstest.unsupported operand type(s) for -: 'str' and 'str'
+2021-10-30 01:31:15,731 - ERROR - send_csv - Error in send_csv methode.unsupported operand type(s) for -: 'str' and 'str'
+2021-10-30 01:31:15,731 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 01:31:15,732 - INFO - send_csv - Session is closed.
+2021-10-30 01:34:40,635 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:34:41,690 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:34:41,690 - INFO - send_csv - Connecting to cluster
+2021-10-30 01:34:52,336 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 01:34:52,336 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 01:34:52,346 - INFO - send_csv - Creating table on insurance1 with casstest
+2021-10-30 01:34:52,651 - ERROR - send_csv - Error in creating table casstest.Table 'insurance1.casstest' already exists
+2021-10-30 01:34:52,651 - ERROR - send_csv - Error in send_csv methode.Table 'insurance1.casstest' already exists
+2021-10-30 01:34:52,651 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 01:34:55,239 - INFO - send_csv - Session is closed.
+2021-10-30 01:37:26,083 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:37:27,213 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:37:27,213 - INFO - send_csv - Connecting to cluster
+2021-10-30 01:37:37,677 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 01:37:37,678 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 01:37:37,688 - INFO - send_csv - Creating table on insurance1 with cass2test
+2021-10-30 01:37:39,249 - INFO - send_csv - Table cass2test created successfully.
+2021-10-30 01:37:39,249 - INFO - send_csv - Inserting data into cass2test
+2021-10-30 01:37:39,249 - ERROR - send_csv - Error in inserting data into cass2test.unsupported operand type(s) for -: 'str' and 'str'
+2021-10-30 01:37:39,249 - ERROR - send_csv - Error in send_csv methode.unsupported operand type(s) for -: 'str' and 'str'
+2021-10-30 01:37:39,249 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 01:37:40,445 - INFO - send_csv - Session is closed.
+2021-10-30 01:38:46,658 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:38:47,667 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:38:47,667 - INFO - send_csv - Connecting to cluster
+2021-10-30 01:38:58,273 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 01:38:58,273 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 01:38:58,284 - INFO - send_csv - Creating table on insurance1 with cass2test
+2021-10-30 01:38:58,541 - ERROR - send_csv - Error in creating table cass2test.Table 'insurance1.cass2test' already exists
+2021-10-30 01:38:58,541 - ERROR - send_csv - Error in send_csv methode.Table 'insurance1.cass2test' already exists
+2021-10-30 01:38:58,541 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 01:39:01,132 - INFO - send_csv - Session is closed.
+2021-10-30 01:39:14,017 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:39:14,983 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:39:14,983 - INFO - send_csv - Connecting to cluster
+2021-10-30 01:39:25,609 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 01:39:25,610 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 01:39:25,621 - INFO - send_csv - Creating table on insurance1 with cass3test
+2021-10-30 01:39:27,007 - INFO - send_csv - Table cass3test created successfully.
+2021-10-30 01:39:27,007 - INFO - send_csv - Inserting data into cass3test
+2021-10-30 01:39:28,339 - INFO - send_csv - 3 rows inserted to cass3test table
+2021-10-30 01:39:28,339 - INFO - send_csv - Data inserted successfully. on cass3test table
+2021-10-30 01:39:28,339 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 01:39:28,339 - INFO - send_csv - Session is closed.
+2021-10-30 01:53:06,547 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:53:07,705 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:53:07,705 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 01:53:21,187 - ERROR - check_table_exist - Error in check_table_exist methode.("Unable to connect to any servers using keyspace 'cass3test'", ['edf49c99-5f29-43a3-ad7f-b2539e0bad31-us-east-1.db.astra.datastax.com', 'edf49c99-5f29-43a3-ad7f-b2539e0bad31-us-east-1.db.astra.datastax.com', 'edf49c99-5f29-43a3-ad7f-b2539e0bad31-us-east-1.db.astra.datastax.com'])
+2021-10-30 01:55:05,966 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:55:07,016 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:55:07,016 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 01:55:17,895 - ERROR - check_table_exist - Error in check_table_exist methode.<Error from server: code=2000 [Syntax error in CQL query] message="line 1:0 no viable alternative at input 'describe' ([describe]...)">
+2021-10-30 01:55:17,895 - INFO - check_table_exist - Exiting send_csv methode... with clossing the seasson
+2021-10-30 01:55:20,466 - INFO - check_table_exist - Session is closed.
+2021-10-30 01:58:54,031 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:58:55,066 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:58:55,066 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 01:59:06,016 - INFO - check_table_exist - Exiting send_csv methode... with clossing the seasson
+2021-10-30 01:59:08,622 - INFO - check_table_exist - Session is closed.
+2021-10-30 01:59:22,499 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 01:59:23,501 - INFO - __init__ - Connection established successfully.
+2021-10-30 01:59:23,501 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 01:59:37,341 - INFO - check_table_exist - Exiting send_csv methode... with clossing the seasson
+2021-10-30 01:59:37,342 - INFO - check_table_exist - Session is closed.
+2021-10-30 02:01:31,214 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:01:32,234 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:01:32,235 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 02:01:43,174 - ERROR - check_table_exist - Error in check_table_exist methode.<Error from server: code=2000 [Syntax error in CQL query] message="line 1:0 no viable alternative at input 'desc' ([desc]...)">
+2021-10-30 02:01:43,174 - INFO - check_table_exist - Exiting send_csv methode... with clossing the seasson
+2021-10-30 02:01:45,944 - INFO - check_table_exist - Session is closed.
+2021-10-30 02:02:35,125 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:02:36,168 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:02:36,168 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 02:02:50,145 - ERROR - check_table_exist - Error in check_table_exist methode.<Error from server: code=2000 [Syntax error in CQL query] message="line 1:0 no viable alternative at input 'desc' ([desc]...)">
+2021-10-30 02:02:50,145 - INFO - check_table_exist - Exiting send_csv methode... with clossing the seasson
+2021-10-30 02:02:50,145 - INFO - check_table_exist - Session is closed.
+2021-10-30 02:04:38,600 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:04:39,695 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:04:39,695 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 02:04:50,597 - INFO - check_table_exist - Exiting check_table_exist methode... with clossing the seasson
+2021-10-30 02:04:53,277 - INFO - check_table_exist - Session is closed.
+2021-10-30 02:05:39,428 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:05:40,483 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:05:40,483 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 02:05:54,423 - INFO - check_table_exist - Exiting check_table_exist methode... with clossing the seasson
+2021-10-30 02:05:54,423 - INFO - check_table_exist - Session is closed.
+2021-10-30 02:07:10,474 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:07:11,566 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:07:11,567 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 02:07:22,460 - INFO - check_table_exist - Exiting check_table_exist methode... with clossing the seasson
+2021-10-30 02:07:25,134 - INFO - check_table_exist - Session is closed.
+2021-10-30 02:07:30,750 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:07:31,729 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:07:31,729 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 02:07:42,572 - ERROR - check_table_exist - Error in check_table_exist methode.Error from server: code=2200 [Invalid query] message="table insurance1.cass4test does not exist"
+2021-10-30 02:07:42,572 - INFO - check_table_exist - Exiting check_table_exist methode... with clossing the seasson
+2021-10-30 02:07:45,256 - INFO - check_table_exist - Session is closed.
+2021-10-30 02:07:52,535 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:07:53,552 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:07:53,552 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 02:08:07,670 - ERROR - check_table_exist - Error in check_table_exist methode.Error from server: code=2200 [Invalid query] message="table insurance1.cass4test does not exist"
+2021-10-30 02:08:07,670 - INFO - check_table_exist - Exiting check_table_exist methode... with clossing the seasson
+2021-10-30 02:08:07,670 - INFO - check_table_exist - Session is closed.
+2021-10-30 02:09:50,105 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:09:51,157 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:09:51,157 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 02:10:02,004 - INFO - check_table_exist - Exiting check_table_exist methode... with clossing the seasson
+2021-10-30 02:10:04,659 - INFO - check_table_exist - Session is closed.
+2021-10-30 02:10:08,123 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:10:09,107 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:10:09,107 - INFO - check_table_exist - Entered check_table_exist methode...
+2021-10-30 02:10:22,925 - INFO - check_table_exist - Exiting check_table_exist methode... with clossing the seasson
+2021-10-30 02:10:22,925 - INFO - check_table_exist - Session is closed.
+2021-10-30 02:14:37,197 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:14:38,238 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:14:38,238 - INFO - send_csv - Connecting to cluster
+2021-10-30 02:14:48,944 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 02:14:48,945 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 02:14:49,199 - INFO - send_csv - Table is already present.
+2021-10-30 02:14:49,200 - INFO - send_csv - Inserting data into cass3test
+2021-10-30 02:14:50,403 - INFO - send_csv - 3 rows inserted to cass3test table
+2021-10-30 02:14:50,403 - INFO - send_csv - Data inserted successfully. on cass3test table
+2021-10-30 02:14:50,403 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 02:14:51,639 - INFO - send_csv - Session is closed.
+2021-10-30 02:16:28,029 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:16:29,066 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:16:29,066 - INFO - send_csv - Connecting to cluster
+2021-10-30 02:16:42,586 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 02:16:42,586 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 02:16:42,851 - INFO - send_csv - Table is already present. Avoiding Creating New Table
+2021-10-30 02:16:42,851 - INFO - send_csv - Inserting data into cass3test
+2021-10-30 02:16:44,352 - INFO - send_csv - 4 rows inserted to cass3test table
+2021-10-30 02:16:44,352 - INFO - send_csv - Data inserted successfully. on cass3test table
+2021-10-30 02:16:44,352 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 02:16:44,352 - INFO - send_csv - Session is closed.
+2021-10-30 02:28:11,797 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:28:12,913 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:28:12,914 - INFO - get_data - Connecting to cluster
+2021-10-30 02:28:25,131 - INFO - get_data - Connection is ready to Cluster
+2021-10-30 02:28:25,131 - INFO - get_data - Pulling data from cloud...
+2021-10-30 02:28:25,389 - INFO - get_data - Data pulled successfully.
+2021-10-30 02:28:25,799 - INFO - get_data - Dataframe created successfully. Returning the data
+2021-10-30 02:28:25,805 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-10-30 02:28:28,312 - INFO - get_data - Session is closed.
+2021-10-30 02:28:59,286 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:29:01,303 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:29:01,303 - INFO - get_data - Connecting to cluster
+2021-10-30 02:29:21,946 - INFO - get_data - Connection is ready to Cluster
+2021-10-30 02:29:21,946 - INFO - get_data - Pulling data from cloud...
+2021-10-30 02:29:22,201 - INFO - get_data - Data pulled successfully.
+2021-10-30 02:29:22,201 - INFO - get_data - Dataframe created successfully. Returning the data
+2021-10-30 02:29:22,201 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-10-30 02:29:27,075 - INFO - get_data - Session is closed.
+2021-10-30 02:33:34,998 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:33:36,328 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:33:36,328 - INFO - get_data - Connecting to cluster
+2021-10-30 02:33:53,062 - INFO - get_data - Connection is ready to Cluster
+2021-10-30 02:33:53,062 - INFO - get_data - Pulling data from cloud...
+2021-10-30 02:33:53,314 - INFO - get_data - Data pulled successfully.
+2021-10-30 02:33:53,315 - ERROR - get_data - Error in get_data methode."['column_count'] not found in axis"
+2021-10-30 02:33:53,315 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-10-30 02:33:56,527 - INFO - get_data - Session is closed.
+2021-10-30 02:37:36,155 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:37:37,328 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:37:37,329 - INFO - get_data - Connecting to cluster
+2021-10-30 02:37:47,883 - INFO - get_data - Connection is ready to Cluster
+2021-10-30 02:37:47,884 - INFO - get_data - Pulling data from cloud...
+2021-10-30 02:37:48,140 - INFO - get_data - Data pulled successfully.
+2021-10-30 02:37:48,141 - ERROR - get_data - Error in get_data methode."['column_count'] not found in axis"
+2021-10-30 02:37:48,141 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-10-30 02:37:50,714 - INFO - get_data - Session is closed.
+2021-10-30 02:38:04,251 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:38:05,253 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:38:05,253 - INFO - get_data - Connecting to cluster
+2021-10-30 02:38:25,929 - ERROR - get_data - Error in get_data methode.('Unable to connect to any servers', {'edf49c99-5f29-43a3-ad7f-b2539e0bad31-us-east-1.db.astra.datastax.com:29042:e2d637ef-99da-4918-998a-f4c926bad468': OSError(None, "Tried connecting to [('3.237.100.148', 29042)]. Last error: _ssl.c:1114: The handshake operation timed out"), 'edf49c99-5f29-43a3-ad7f-b2539e0bad31-us-east-1.db.astra.datastax.com:29042:ddb3dbc5-8f15-4358-be1b-75186269755a': OSError(None, "Tried connecting to [('54.234.31.30', 29042)]. Last error: _ssl.c:1114: The handshake operation timed out"), 'edf49c99-5f29-43a3-ad7f-b2539e0bad31-us-east-1.db.astra.datastax.com:29042:9a0a69be-83e4-46ae-854b-32029a377dd8': OperationTimedOut('errors=None, last_host=None')})
+2021-10-30 02:38:25,929 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-10-30 02:40:50,751 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:40:53,793 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:40:53,793 - INFO - get_data - Connecting to cluster
+2021-10-30 02:41:08,021 - INFO - get_data - Connection is ready to Cluster
+2021-10-30 02:41:08,021 - INFO - get_data - Pulling data from cloud...
+2021-10-30 02:41:08,273 - INFO - get_data - Data pulled successfully.
+2021-10-30 02:41:08,278 - INFO - get_data - Dataframe created successfully. Returning the data
+2021-10-30 02:41:08,278 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-10-30 02:41:13,044 - INFO - get_data - Session is closed.
+2021-10-30 02:45:57,899 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:45:59,239 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:46:42,186 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:46:43,228 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:46:43,229 - INFO - send_csv - Connecting to cluster
+2021-10-30 02:47:27,729 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 02:47:28,813 - INFO - __init__ - Connection established successfully.
+2021-10-30 02:47:28,813 - INFO - send_csv - Connecting to cluster
+2021-10-30 02:47:40,156 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 02:47:40,156 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 02:47:40,412 - INFO - send_csv - Table is already present. Avoiding Creating New Table
+2021-10-30 02:47:40,412 - INFO - send_csv - Inserting data into cass3test
+2021-10-30 02:47:41,866 - INFO - send_csv - 4 rows inserted to cass3test table
+2021-10-30 02:47:41,866 - INFO - send_csv - Data inserted successfully. on cass3test table
+2021-10-30 02:47:41,866 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 02:47:43,981 - INFO - send_csv - Session is closed.
+2021-10-30 02:47:43,981 - INFO - send_csv - Connecting to cluster
+2021-10-30 02:47:51,405 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 02:47:51,405 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 02:47:51,666 - INFO - send_csv - Table is already present. Avoiding Creating New Table
+2021-10-30 02:47:51,666 - INFO - send_csv - Inserting data into cass3test
+2021-10-30 02:47:53,127 - INFO - send_csv - 4 rows inserted to cass3test table
+2021-10-30 02:47:53,127 - INFO - send_csv - Data inserted successfully. on cass3test table
+2021-10-30 02:47:53,127 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 02:47:53,127 - INFO - send_csv - Session is closed.
+2021-10-30 03:00:16,643 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 03:00:18,309 - INFO - __init__ - Connection established successfully.
+2021-10-30 03:00:18,310 - INFO - send_csv - Connecting to cluster
+2021-10-30 03:00:30,262 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 03:00:30,263 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 03:00:30,526 - INFO - send_csv - Table is already present. Avoiding Creating New Table
+2021-10-30 03:00:30,526 - INFO - send_csv - Inserting data into cass3test
+2021-10-30 03:00:32,020 - INFO - send_csv - 4 rows inserted to cass3test table
+2021-10-30 03:00:32,020 - INFO - send_csv - Data inserted successfully. on cass3test table
+2021-10-30 03:00:32,020 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 03:00:32,020 - INFO - send_csv - Session is closed.
+2021-10-30 03:00:32,021 - INFO - send_csv - Connecting to cluster
+2021-10-30 03:00:37,714 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 03:00:37,714 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 03:00:37,974 - INFO - send_csv - Table is already present. Avoiding Creating New Table
+2021-10-30 03:00:37,974 - INFO - send_csv - Inserting data into cass3test
+2021-10-30 03:00:39,775 - INFO - send_csv - 4 rows inserted to cass3test table
+2021-10-30 03:00:39,775 - INFO - send_csv - Data inserted successfully. on cass3test table
+2021-10-30 03:00:39,775 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 03:00:39,776 - INFO - send_csv - Session is closed.
+2021-10-30 03:02:22,727 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 03:02:25,809 - INFO - __init__ - Connection established successfully.
+2021-10-30 03:02:25,809 - INFO - send_csv - Connecting to cluster
+2021-10-30 03:03:00,137 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 03:03:01,172 - INFO - __init__ - Connection established successfully.
+2021-10-30 03:03:01,173 - INFO - send_csv - Connecting to cluster
+2021-10-30 03:03:23,742 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 03:03:23,743 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 03:03:24,023 - INFO - send_csv - Table is already present. Avoiding Creating New Table
+2021-10-30 03:03:24,023 - INFO - send_csv - Inserting data into cass3test
+2021-10-30 03:03:26,607 - INFO - send_csv - 4 rows inserted to cass3test table
+2021-10-30 03:03:26,608 - INFO - send_csv - Data inserted successfully. on cass3test table
+2021-10-30 03:03:26,608 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 03:03:26,608 - INFO - send_csv - Session is closed.
+2021-10-30 03:03:26,608 - INFO - send_csv - Connecting to cluster
+2021-10-30 03:03:29,825 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 03:03:29,825 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 03:03:30,093 - INFO - send_csv - Table is already present. Avoiding Creating New Table
+2021-10-30 03:03:30,093 - INFO - send_csv - Inserting data into cass3test
+2021-10-30 03:03:31,416 - INFO - send_csv - 8 rows inserted to cass3test table
+2021-10-30 03:03:31,416 - INFO - send_csv - Data inserted successfully. on cass3test table
+2021-10-30 03:03:31,416 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 03:03:32,916 - INFO - send_csv - Session is closed.
+2021-10-30 03:04:02,537 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 03:04:03,561 - INFO - __init__ - Connection established successfully.
+2021-10-30 03:04:03,561 - INFO - send_csv - Connecting to cluster
+2021-10-30 03:04:16,377 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 03:04:16,377 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 03:04:16,654 - INFO - send_csv - Table is already present. Avoiding Creating New Table
+2021-10-30 03:04:16,654 - INFO - send_csv - Inserting data into cass3test
+2021-10-30 03:04:18,204 - INFO - send_csv - 12 rows inserted to cass3test table
+2021-10-30 03:04:18,204 - INFO - send_csv - Data inserted successfully. on cass3test table
+2021-10-30 03:04:18,204 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 03:04:18,456 - INFO - send_csv - Session is closed.
+2021-10-30 03:04:18,456 - INFO - send_csv - Connecting to cluster
+2021-10-30 03:04:21,323 - INFO - send_csv - Connection is ready to Cluster
+2021-10-30 03:04:21,323 - INFO - send_csv - Entered send_csv methode...
+2021-10-30 03:04:21,574 - INFO - send_csv - Table is already present. Avoiding Creating New Table
+2021-10-30 03:04:21,574 - INFO - send_csv - Inserting data into cass3test
+2021-10-30 03:04:22,770 - INFO - send_csv - 16 rows inserted to cass3test table
+2021-10-30 03:04:22,770 - INFO - send_csv - Data inserted successfully. on cass3test table
+2021-10-30 03:04:22,771 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-10-30 03:04:24,115 - INFO - send_csv - Session is closed.
+2021-10-30 03:05:44,212 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 03:05:49,528 - ERROR - __init__ - Error in connecting to database.Unable to connect to the metadata service at https://edf49c99-5f29-43a3-ad7f-b2539e0bad31-us-east-1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+2021-10-30 03:05:53,865 - INFO - __init__ - Connecting to cassandra database.
+2021-10-30 03:05:55,068 - INFO - __init__ - Connection established successfully.
+2021-10-30 03:05:55,068 - INFO - get_data - Connecting to cluster
+2021-10-30 03:06:05,536 - INFO - get_data - Connection is ready to Cluster
+2021-10-30 03:06:05,536 - INFO - get_data - Pulling data from cloud...
+2021-10-30 03:06:05,781 - INFO - get_data - Data pulled successfully.
+2021-10-30 03:06:05,786 - INFO - get_data - Dataframe created successfully. Returning the data
+2021-10-30 03:06:05,786 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-10-30 03:06:09,969 - INFO - get_data - Session is closed.
+2021-11-16 16:56:57,149 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 16:56:58,733 - INFO - __init__ - Connection established successfully.
+2021-11-16 16:59:01,704 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 16:59:02,784 - INFO - __init__ - Connection established successfully.
+2021-11-16 17:01:18,782 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 17:01:19,853 - INFO - __init__ - Connection established successfully.
+2021-11-16 17:02:13,808 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 17:02:14,917 - INFO - __init__ - Connection established successfully.
+2021-11-16 17:03:55,565 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 17:03:56,677 - INFO - __init__ - Connection established successfully.
+2021-11-16 17:05:15,198 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 17:05:16,244 - INFO - __init__ - Connection established successfully.
+2021-11-16 17:07:31,706 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 17:07:32,862 - INFO - __init__ - Connection established successfully.
+2021-11-16 17:20:28,191 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 17:20:29,357 - INFO - __init__ - Connection established successfully.
+2021-11-16 17:22:06,596 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 17:22:07,741 - INFO - __init__ - Connection established successfully.
+2021-11-16 17:23:04,942 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 17:23:05,956 - INFO - __init__ - Connection established successfully.
+2021-11-16 17:25:43,918 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 17:25:45,106 - INFO - __init__ - Connection established successfully.
+2021-11-16 17:29:45,598 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 17:29:46,681 - INFO - __init__ - Connection established successfully.
+2021-11-16 18:05:18,122 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 18:05:19,958 - INFO - __init__ - Connection established successfully.
+2021-11-16 18:11:31,756 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 18:11:33,537 - INFO - __init__ - Connection established successfully.
+2021-11-16 18:15:33,375 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 18:15:34,484 - INFO - __init__ - Connection established successfully.
+2021-11-16 18:16:43,756 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 18:16:44,807 - INFO - __init__ - Connection established successfully.
+2021-11-16 18:21:02,518 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 18:21:03,513 - INFO - __init__ - Connection established successfully.
+2021-11-16 18:21:38,796 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 18:21:39,867 - INFO - __init__ - Connection established successfully.
+2021-11-16 18:21:39,867 - INFO - send_csv - Connecting to cluster
+2021-11-16 18:21:51,141 - INFO - send_csv - Connection is ready to Cluster
+2021-11-16 18:21:51,141 - INFO - send_csv - Entered send_csv methode...
+2021-11-16 18:21:51,908 - INFO - send_csv - Table is not present. Creating train_data1
+2021-11-16 18:21:51,908 - INFO - send_csv - Creating table on insTest1 with train_data1
+2021-11-16 18:21:53,371 - INFO - send_csv - Table train_data1 created successfully.
+2021-11-16 18:21:53,372 - INFO - send_csv - Inserting data into train_data1
+2021-11-16 18:21:55,415 - INFO - send_csv - 20 rows inserted to train_data1 table
+2021-11-16 18:21:55,415 - INFO - send_csv - Data inserted successfully. on train_data1 table
+2021-11-16 18:21:55,415 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-11-16 18:21:55,416 - INFO - send_csv - Session is closed.
+2021-11-16 18:21:55,417 - INFO - send_csv - Connecting to cluster
+2021-11-16 18:21:58,434 - INFO - send_csv - Connection is ready to Cluster
+2021-11-16 18:21:58,434 - INFO - send_csv - Entered send_csv methode...
+2021-11-16 18:21:58,709 - INFO - send_csv - Table is not present. Creating train_data1
+2021-11-16 18:21:58,710 - INFO - send_csv - Creating table on insTest1 with train_data1
+2021-11-16 18:21:58,956 - ERROR - send_csv - Error in creating table train_data1.Table 'insTest1.train_data1' already exists
+2021-11-16 18:21:58,957 - ERROR - send_csv - Error in send_csv methode.Table 'insTest1.train_data1' already exists
+2021-11-16 18:21:58,957 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-11-16 18:22:01,267 - INFO - send_csv - Session is closed.
+2021-11-16 18:33:07,666 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 18:33:09,043 - INFO - __init__ - Connection established successfully.
+2021-11-16 18:33:09,044 - INFO - send_csv - Connecting to cluster
+2021-11-16 18:33:19,756 - INFO - send_csv - Connection is ready to Cluster
+2021-11-16 18:33:19,757 - INFO - send_csv - Entered send_csv methode...
+2021-11-16 18:33:20,030 - INFO - send_csv - Table is not present. Creating train_data1
+2021-11-16 18:33:20,030 - INFO - send_csv - Creating table on insTest1 with train_data1
+2021-11-16 18:33:20,295 - ERROR - send_csv - Error in creating table train_data1.Table 'insTest1.train_data1' already exists
+2021-11-16 18:33:20,295 - INFO - send_csv - Inserting data into train_data1
+2021-11-16 18:33:21,770 - INFO - send_csv - 24 rows inserted to train_data1 table
+2021-11-16 18:33:21,770 - INFO - send_csv - Data inserted successfully. on train_data1 table
+2021-11-16 18:33:21,770 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-11-16 18:33:22,420 - INFO - send_csv - Session is closed.
+2021-11-16 18:33:22,421 - INFO - send_csv - Connecting to cluster
+2021-11-16 18:33:25,380 - INFO - send_csv - Connection is ready to Cluster
+2021-11-16 18:33:25,380 - INFO - send_csv - Entered send_csv methode...
+2021-11-16 18:33:25,658 - INFO - send_csv - Table is not present. Creating train_data1
+2021-11-16 18:33:25,659 - INFO - send_csv - Creating table on insTest1 with train_data1
+2021-11-16 18:33:25,897 - ERROR - send_csv - Error in creating table train_data1.Table 'insTest1.train_data1' already exists
+2021-11-16 18:33:25,898 - INFO - send_csv - Inserting data into train_data1
+2021-11-16 18:33:27,395 - INFO - send_csv - 28 rows inserted to train_data1 table
+2021-11-16 18:33:27,395 - INFO - send_csv - Data inserted successfully. on train_data1 table
+2021-11-16 18:33:27,396 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-11-16 18:33:28,090 - INFO - send_csv - Session is closed.
+2021-11-16 18:37:25,550 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 18:37:26,650 - INFO - __init__ - Connection established successfully.
+2021-11-16 18:37:26,652 - INFO - send_csv - Connecting to cluster
+2021-11-16 18:40:21,799 - INFO - __init__ - Connecting to cassandra database.
+2021-11-16 18:40:22,861 - INFO - __init__ - Connection established successfully.
+2021-11-16 18:40:22,862 - INFO - send_csv - Connecting to cluster
+2021-11-16 18:40:33,445 - INFO - send_csv - Connection is ready to Cluster
+2021-11-16 18:40:33,445 - INFO - send_csv - Entered send_csv methode...
+2021-11-16 18:40:33,718 - INFO - send_csv - Table is not present. Creating train_data77
+2021-11-16 18:40:33,718 - INFO - send_csv - Creating table on insurance1 with train_data77
+2021-11-16 18:40:35,217 - INFO - send_csv - Table train_data77 created successfully.
+2021-11-16 18:40:35,217 - INFO - send_csv - Inserting data into train_data77
+2021-11-16 18:40:36,733 - INFO - send_csv - 32 rows inserted to train_data77 table
+2021-11-16 18:40:36,733 - INFO - send_csv - Data inserted successfully. on train_data77 table
+2021-11-16 18:40:36,733 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-11-16 18:40:36,733 - INFO - send_csv - Session is closed.
+2021-11-16 18:40:36,734 - INFO - send_csv - Connecting to cluster
+2021-11-16 18:40:41,763 - INFO - send_csv - Connection is ready to Cluster
+2021-11-16 18:40:41,763 - INFO - send_csv - Entered send_csv methode...
+2021-11-16 18:40:42,093 - INFO - send_csv - Table is already present. Avoiding Creating New Table
+2021-11-16 18:40:42,093 - INFO - send_csv - Inserting data into train_data77
+2021-11-16 18:40:43,572 - INFO - send_csv - 36 rows inserted to train_data77 table
+2021-11-16 18:40:43,572 - INFO - send_csv - Data inserted successfully. on train_data77 table
+2021-11-16 18:40:43,573 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
+2021-11-16 18:40:43,573 - INFO - send_csv - Session is closed.

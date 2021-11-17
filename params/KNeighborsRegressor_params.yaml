@@ -1,0 +1,6 @@
+---
+  n_neighbors: [2, 4, 6]
+  algorithm: ["auto"]
+  leaf_size: [10, 20, 30]
+  p: [1, 2]
+  

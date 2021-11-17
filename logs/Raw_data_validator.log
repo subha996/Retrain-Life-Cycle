@@ -1,0 +1,261 @@
+2021-11-14 20:16:21,105 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-14 20:17:43,907 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-14 20:20:04,548 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-14 20:20:04,640 - INFO - validate_file_name - Entered validate_raw_input_data method...
+2021-11-14 20:20:04,640 - INFO - validate_file_name - Creating new folder for storing validated files...
+2021-11-14 20:20:04,643 - INFO - validate_file_name - New folder created successfully.
+2021-11-14 20:20:04,643 - INFO - validate_file_name - File insurace4112021_17000.csv having incorrect file name, moving to bad folder.
+2021-11-14 20:20:04,855 - INFO - validate_file_name - File insurance_01112021_500000.csv moved to good folder.
+2021-11-14 20:20:04,910 - INFO - validate_file_name - File insurance_02112021_150000.csv moved to good folder.
+2021-11-14 20:20:04,922 - INFO - validate_file_name - File insurance_03112021_230000.csv moved to good folder.
+2021-11-14 20:20:04,955 - INFO - validate_file_name - File insurance_04112021_170000.csv moved to good folder.
+2021-11-14 20:20:04,972 - INFO - validate_file_name - File insurance_05112021_210000.csv moved to good folder.
+2021-11-14 20:20:05,061 - INFO - validate_file_name - File insurance_06112021_210000.csv moved to good folder.
+2021-11-14 20:20:05,072 - INFO - validate_file_name - File insurance_06112021_220000.csv moved to good folder.
+2021-11-14 20:20:05,083 - INFO - validate_file_name - File insurance_06112021_230000.csv moved to good folder.
+2021-11-14 20:20:05,095 - INFO - validate_file_name - File insurance_30102021_120000.csv moved to good folder.
+2021-11-14 20:20:05,096 - INFO - validate_file_name - File isura1112021_500000.csv having incorrect file name, moving to bad folder.
+2021-11-14 20:20:05,099 - INFO - validate_file_name - File isurce_0211201_000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-14 20:20:05,103 - INFO - validate_file_name - File suance_0311202230000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-14 20:20:05,107 - INFO - validate_file_name - Validated files moved successfully.
+2021-11-14 20:20:05,107 - INFO - validate_file_name - Exited validate_raw_input_data method...
+2021-11-14 20:22:23,020 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-14 20:22:23,027 - INFO - validate_file_name - Entered validate_raw_input_data method...
+2021-11-14 20:22:23,027 - INFO - validate_file_name - Creating new folder for storing validated files...
+2021-11-14 20:22:23,111 - INFO - validate_file_name - New folder created successfully.
+2021-11-14 20:22:23,112 - INFO - validate_file_name - File insurace4112021_17000.csv having incorrect file name, moving to bad folder.
+2021-11-14 20:22:23,115 - INFO - validate_file_name - File insurance_01112021_500000.csv moved to good folder.
+2021-11-14 20:22:23,117 - INFO - validate_file_name - File insurance_02112021_150000.csv moved to good folder.
+2021-11-14 20:22:23,119 - INFO - validate_file_name - File insurance_03112021_230000.csv moved to good folder.
+2021-11-14 20:22:23,122 - INFO - validate_file_name - File insurance_04112021_170000.csv moved to good folder.
+2021-11-14 20:22:23,143 - INFO - validate_file_name - File insurance_05112021_210000.csv moved to good folder.
+2021-11-14 20:22:23,145 - INFO - validate_file_name - File insurance_06112021_210000.csv moved to good folder.
+2021-11-14 20:22:23,147 - INFO - validate_file_name - File insurance_06112021_220000.csv moved to good folder.
+2021-11-14 20:22:23,149 - INFO - validate_file_name - File insurance_06112021_230000.csv moved to good folder.
+2021-11-14 20:22:23,151 - INFO - validate_file_name - File insurance_30102021_120000.csv moved to good folder.
+2021-11-14 20:22:23,151 - INFO - validate_file_name - File isura1112021_500000.csv having incorrect file name, moving to bad folder.
+2021-11-14 20:22:23,153 - INFO - validate_file_name - File isurce_0211201_000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-14 20:22:23,156 - INFO - validate_file_name - File suance_0311202230000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-14 20:22:23,158 - INFO - validate_file_name - Validated files moved successfully.
+2021-11-14 20:22:23,158 - INFO - validate_file_name - Exited validate_raw_input_data method...
+2021-11-14 20:28:26,535 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-14 20:28:26,541 - INFO - validate_file_name - Entered validate_raw_input_data method...
+2021-11-14 20:28:26,541 - INFO - validate_file_name - Creating new folder for storing validated files...
+2021-11-14 20:28:26,576 - INFO - validate_file_name - New folder created successfully.
+2021-11-14 20:28:26,577 - INFO - validate_file_name - File insurace4112021_17000.csv having incorrect file name, moving to bad folder.
+2021-11-14 20:28:26,581 - INFO - validate_file_name - File insurance_01112021_500000.csv moved to good folder.
+2021-11-14 20:28:26,584 - INFO - validate_file_name - File insurance_02112021_150000.csv moved to good folder.
+2021-11-14 20:28:26,586 - INFO - validate_file_name - File insurance_03112021_230000.csv moved to good folder.
+2021-11-14 20:28:26,588 - INFO - validate_file_name - File insurance_04112021_170000.csv moved to good folder.
+2021-11-14 20:28:26,590 - INFO - validate_file_name - File insurance_05112021_210000.csv moved to good folder.
+2021-11-14 20:28:26,592 - INFO - validate_file_name - File insurance_06112021_210000.csv moved to good folder.
+2021-11-14 20:28:26,594 - INFO - validate_file_name - File insurance_06112021_220000.csv moved to good folder.
+2021-11-14 20:28:26,597 - INFO - validate_file_name - File insurance_06112021_230000.csv moved to good folder.
+2021-11-14 20:28:26,599 - INFO - validate_file_name - File insurance_30102021_120000.csv moved to good folder.
+2021-11-14 20:28:26,599 - INFO - validate_file_name - File isura1112021_500000.csv having incorrect file name, moving to bad folder.
+2021-11-14 20:28:26,601 - INFO - validate_file_name - File isurce_0211201_000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-14 20:28:26,604 - INFO - validate_file_name - File suance_0311202230000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-14 20:28:26,605 - INFO - validate_file_name - Validated files moved successfully.
+2021-11-14 20:28:26,606 - INFO - validate_file_name - Exited validate_raw_input_data method...
+2021-11-14 20:28:55,989 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-14 20:28:55,995 - INFO - validate_file_name - Entered validate_raw_input_data method...
+2021-11-14 20:28:55,995 - INFO - validate_file_name - Creating new folder for storing validated files...
+2021-11-14 20:28:56,044 - INFO - validate_file_name - New folder created successfully.
+2021-11-14 20:28:56,045 - INFO - validate_file_name - File insurace4112021_17000.csv having incorrect file name, moving to bad folder.
+2021-11-14 20:28:56,049 - INFO - validate_file_name - File insurance_01112021_500000.csv moved to good folder.
+2021-11-14 20:28:56,050 - INFO - validate_file_name - File insurance_02112021_150000.csv moved to good folder.
+2021-11-14 20:28:56,052 - INFO - validate_file_name - File insurance_03112021_230000.csv moved to good folder.
+2021-11-14 20:28:56,054 - INFO - validate_file_name - File insurance_04112021_170000.csv moved to good folder.
+2021-11-14 20:28:56,056 - INFO - validate_file_name - File insurance_05112021_210000.csv moved to good folder.
+2021-11-14 20:28:56,058 - INFO - validate_file_name - File insurance_06112021_210000.csv moved to good folder.
+2021-11-14 20:28:56,060 - INFO - validate_file_name - File insurance_06112021_220000.csv moved to good folder.
+2021-11-14 20:28:56,062 - INFO - validate_file_name - File insurance_06112021_230000.csv moved to good folder.
+2021-11-14 20:28:56,063 - INFO - validate_file_name - File insurance_30102021_120000.csv moved to good folder.
+2021-11-14 20:28:56,064 - INFO - validate_file_name - File isura1112021_500000.csv having incorrect file name, moving to bad folder.
+2021-11-14 20:28:56,065 - INFO - validate_file_name - File isurce_0211201_000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-14 20:28:56,067 - INFO - validate_file_name - File suance_0311202230000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-14 20:28:56,069 - INFO - validate_file_name - Validated files moved successfully.
+2021-11-14 20:28:56,069 - INFO - validate_file_name - Exited validate_raw_input_data method...
+2021-11-14 20:28:56,069 - INFO - validateMissingValueWholeColumn - Entered validateMissingValueWholeColumn method...
+2021-11-14 20:28:56,343 - INFO - validateMissingValueWholeColumn - File insurace4112021_17000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,349 - INFO - validateMissingValueWholeColumn - File insurance_01112021_500000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,355 - INFO - validateMissingValueWholeColumn - File insurance_02112021_150000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,361 - INFO - validateMissingValueWholeColumn - File insurance_03112021_230000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,367 - INFO - validateMissingValueWholeColumn - File insurance_04112021_170000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,374 - INFO - validateMissingValueWholeColumn - File insurance_05112021_210000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,381 - INFO - validateMissingValueWholeColumn - File insurance_06112021_210000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,387 - INFO - validateMissingValueWholeColumn - File insurance_06112021_220000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,394 - INFO - validateMissingValueWholeColumn - File insurance_06112021_230000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,400 - INFO - validateMissingValueWholeColumn - File insurance_30102021_120000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,406 - INFO - validateMissingValueWholeColumn - File isura1112021_500000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,412 - INFO - validateMissingValueWholeColumn - File isurce_0211201_000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,417 - INFO - validateMissingValueWholeColumn - File suance_0311202230000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:28:56,417 - INFO - validateMissingValueWholeColumn - Validated missing value in whole column successfully.
+2021-11-14 20:28:56,418 - INFO - validateMissingValueWholeColumn - Exited validateMissingValueWholeColumn method.
+2021-11-14 20:29:48,572 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-14 20:29:48,579 - INFO - validate_file_name - Entered validate_raw_input_data method...
+2021-11-14 20:29:48,579 - INFO - validate_file_name - Creating new folder for storing validated files...
+2021-11-14 20:29:48,581 - INFO - validate_file_name - New folder created successfully.
+2021-11-14 20:29:48,582 - INFO - validate_file_name - File insurace4112021_17000.csv having incorrect file name, moving to bad folder.
+2021-11-14 20:29:48,586 - INFO - validate_file_name - File insurance_01112021_500000.csv moved to good folder.
+2021-11-14 20:29:48,588 - INFO - validate_file_name - File insurance_02112021_150000.csv moved to good folder.
+2021-11-14 20:29:48,590 - INFO - validate_file_name - File insurance_03112021_230000.csv moved to good folder.
+2021-11-14 20:29:48,592 - INFO - validate_file_name - File insurance_04112021_170000.csv moved to good folder.
+2021-11-14 20:29:48,594 - INFO - validate_file_name - File insurance_05112021_210000.csv moved to good folder.
+2021-11-14 20:29:48,596 - INFO - validate_file_name - File insurance_06112021_210000.csv moved to good folder.
+2021-11-14 20:29:48,598 - INFO - validate_file_name - File insurance_06112021_220000.csv moved to good folder.
+2021-11-14 20:29:48,600 - INFO - validate_file_name - File insurance_06112021_230000.csv moved to good folder.
+2021-11-14 20:29:48,603 - INFO - validate_file_name - File insurance_30102021_120000.csv moved to good folder.
+2021-11-14 20:29:48,603 - INFO - validate_file_name - File isura1112021_500000.csv having incorrect file name, moving to bad folder.
+2021-11-14 20:29:48,604 - INFO - validate_file_name - File isurce_0211201_000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-14 20:29:48,607 - INFO - validate_file_name - File suance_0311202230000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-14 20:29:48,608 - INFO - validate_file_name - Validated files moved successfully.
+2021-11-14 20:29:48,609 - INFO - validate_file_name - Exited validate_raw_input_data method...
+2021-11-14 20:29:48,609 - INFO - validateMissingValueWholeColumn - Entered validateMissingValueWholeColumn method...
+2021-11-14 20:29:48,617 - INFO - validateMissingValueWholeColumn - File insurace4112021_17000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,623 - INFO - validateMissingValueWholeColumn - File insurance_01112021_500000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,629 - INFO - validateMissingValueWholeColumn - File insurance_02112021_150000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,635 - INFO - validateMissingValueWholeColumn - File insurance_03112021_230000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,642 - INFO - validateMissingValueWholeColumn - File insurance_04112021_170000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,649 - INFO - validateMissingValueWholeColumn - File insurance_05112021_210000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,656 - INFO - validateMissingValueWholeColumn - File insurance_06112021_210000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,663 - INFO - validateMissingValueWholeColumn - File insurance_06112021_220000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,670 - INFO - validateMissingValueWholeColumn - File insurance_06112021_230000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,676 - INFO - validateMissingValueWholeColumn - File insurance_30102021_120000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,682 - INFO - validateMissingValueWholeColumn - File isura1112021_500000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,688 - INFO - validateMissingValueWholeColumn - File isurce_0211201_000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,693 - INFO - validateMissingValueWholeColumn - File suance_0311202230000.csv having no missing value in whole column, moving to good folder.
+2021-11-14 20:29:48,694 - INFO - validateMissingValueWholeColumn - Validated missing value in whole column successfully.
+2021-11-14 20:29:48,694 - INFO - validateMissingValueWholeColumn - Exited validateMissingValueWholeColumn method.
+2021-11-16 11:49:22,863 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-16 11:49:22,889 - INFO - validate_file_name - Entered validate_raw_input_data method...
+2021-11-16 11:49:22,890 - INFO - validate_file_name - Creating new folder for storing validated files...
+2021-11-16 11:49:22,901 - INFO - validate_file_name - New folder created successfully.
+2021-11-16 11:49:22,902 - INFO - validate_file_name - File insurace4112021_17000.csv having incorrect file name, moving to bad folder.
+2021-11-16 11:49:22,916 - INFO - validate_file_name - File insurance_01112021_500000.csv moved to good folder.
+2021-11-16 11:49:22,919 - INFO - validate_file_name - File insurance_02112021_150000.csv moved to good folder.
+2021-11-16 11:49:22,923 - INFO - validate_file_name - File insurance_03112021_230000.csv moved to good folder.
+2021-11-16 11:49:22,935 - INFO - validate_file_name - File insurance_04112021_170000.csv moved to good folder.
+2021-11-16 11:49:22,966 - INFO - validate_file_name - File insurance_05112021_210000.csv moved to good folder.
+2021-11-16 11:49:22,978 - INFO - validate_file_name - File insurance_06112021_210000.csv moved to good folder.
+2021-11-16 11:49:22,999 - INFO - validate_file_name - File insurance_06112021_220000.csv moved to good folder.
+2021-11-16 11:49:23,035 - INFO - validate_file_name - File insurance_06112021_230000.csv moved to good folder.
+2021-11-16 11:49:23,046 - INFO - validate_file_name - File insurance_30102021_120000.csv moved to good folder.
+2021-11-16 11:49:23,046 - INFO - validate_file_name - File isura1112021_500000.csv having incorrect file name, moving to bad folder.
+2021-11-16 11:49:23,069 - INFO - validate_file_name - File isurce_0211201_000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-16 11:49:23,073 - INFO - validate_file_name - File suance_0311202230000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-16 11:49:23,076 - INFO - validate_file_name - Validated files moved successfully.
+2021-11-16 11:49:23,076 - INFO - validate_file_name - Exited validate_raw_input_data method...
+2021-11-16 11:51:07,303 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-16 11:51:07,304 - INFO - validate_file_name - Entered validate_raw_input_data method...
+2021-11-16 11:51:07,304 - INFO - validate_file_name - Creating new folder for storing validated files...
+2021-11-16 11:51:07,306 - INFO - validate_file_name - New folder created successfully.
+2021-11-16 11:51:07,307 - INFO - validate_file_name - File insurace4112021_17000.csv having incorrect file name, moving to bad folder.
+2021-11-16 11:51:07,312 - INFO - validate_file_name - File insurance_01112021_500000.csv moved to good folder.
+2021-11-16 11:51:07,314 - INFO - validate_file_name - File insurance_02112021_150000.csv moved to good folder.
+2021-11-16 11:51:07,315 - INFO - validate_file_name - File insurance_03112021_230000.csv moved to good folder.
+2021-11-16 11:51:07,317 - INFO - validate_file_name - File insurance_04112021_170000.csv moved to good folder.
+2021-11-16 11:51:07,319 - INFO - validate_file_name - File insurance_05112021_210000.csv moved to good folder.
+2021-11-16 11:51:07,321 - INFO - validate_file_name - File insurance_06112021_210000.csv moved to good folder.
+2021-11-16 11:51:07,324 - INFO - validate_file_name - File insurance_06112021_220000.csv moved to good folder.
+2021-11-16 11:51:07,326 - INFO - validate_file_name - File insurance_06112021_230000.csv moved to good folder.
+2021-11-16 11:51:07,329 - INFO - validate_file_name - File insurance_30102021_120000.csv moved to good folder.
+2021-11-16 11:51:07,329 - INFO - validate_file_name - File isura1112021_500000.csv having incorrect file name, moving to bad folder.
+2021-11-16 11:51:07,331 - INFO - validate_file_name - File isurce_0211201_000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-16 11:51:07,332 - INFO - validate_file_name - File suance_0311202230000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-16 11:51:07,334 - INFO - validate_file_name - Validated files moved successfully.
+2021-11-16 11:51:07,334 - INFO - validate_file_name - Exited validate_raw_input_data method...
+2021-11-16 11:51:07,334 - INFO - validateColumnLength - Entered validateColumnLength method...
+2021-11-16 11:51:07,335 - ERROR - validateColumnLength - Error occured in validateColumnLength method: read_csv_file() got an unexpected keyword argument 'file_name'
+2021-11-16 11:52:39,063 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-16 11:52:39,063 - INFO - validate_file_name - Entered validate_raw_input_data method...
+2021-11-16 11:52:39,063 - INFO - validate_file_name - Creating new folder for storing validated files...
+2021-11-16 11:52:39,065 - INFO - validate_file_name - New folder created successfully.
+2021-11-16 11:52:39,066 - INFO - validate_file_name - File insurace4112021_17000.csv having incorrect file name, moving to bad folder.
+2021-11-16 11:52:39,069 - INFO - validate_file_name - File insurance_01112021_500000.csv moved to good folder.
+2021-11-16 11:52:39,071 - INFO - validate_file_name - File insurance_02112021_150000.csv moved to good folder.
+2021-11-16 11:52:39,073 - INFO - validate_file_name - File insurance_03112021_230000.csv moved to good folder.
+2021-11-16 11:52:39,075 - INFO - validate_file_name - File insurance_04112021_170000.csv moved to good folder.
+2021-11-16 11:52:39,078 - INFO - validate_file_name - File insurance_05112021_210000.csv moved to good folder.
+2021-11-16 11:52:39,080 - INFO - validate_file_name - File insurance_06112021_210000.csv moved to good folder.
+2021-11-16 11:52:39,082 - INFO - validate_file_name - File insurance_06112021_220000.csv moved to good folder.
+2021-11-16 11:52:39,084 - INFO - validate_file_name - File insurance_06112021_230000.csv moved to good folder.
+2021-11-16 11:52:39,086 - INFO - validate_file_name - File insurance_30102021_120000.csv moved to good folder.
+2021-11-16 11:52:39,086 - INFO - validate_file_name - File isura1112021_500000.csv having incorrect file name, moving to bad folder.
+2021-11-16 11:52:39,087 - INFO - validate_file_name - File isurce_0211201_000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-16 11:52:39,089 - INFO - validate_file_name - File suance_0311202230000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-16 11:52:39,091 - INFO - validate_file_name - Validated files moved successfully.
+2021-11-16 11:52:39,091 - INFO - validate_file_name - Exited validate_raw_input_data method...
+2021-11-16 11:52:39,092 - INFO - validateColumnLength - Entered validateColumnLength method...
+2021-11-16 11:52:39,135 - INFO - validateColumnLength - File insurance_01112021_500000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 11:52:39,141 - INFO - validateColumnLength - File insurance_02112021_150000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 11:52:39,146 - INFO - validateColumnLength - File insurance_03112021_230000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 11:52:39,152 - INFO - validateColumnLength - File insurance_04112021_170000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 11:52:39,166 - INFO - validateColumnLength - File insurance_05112021_210000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 11:52:39,181 - INFO - validateColumnLength - File insurance_06112021_210000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 11:52:39,196 - INFO - validateColumnLength - File insurance_06112021_220000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 11:52:39,210 - INFO - validateColumnLength - File insurance_06112021_230000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 11:52:39,216 - INFO - validateColumnLength - File insurance_30102021_120000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 11:52:39,216 - INFO - validateColumnLength - Validated files moved successfully.
+2021-11-16 11:52:39,217 - INFO - validateMissingValueWholeColumn - Entered validateMissingValueWholeColumn method...
+2021-11-16 11:52:39,237 - INFO - validateMissingValueWholeColumn - File insurance_01112021_500000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 11:52:39,243 - INFO - validateMissingValueWholeColumn - File insurance_02112021_150000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 11:52:39,249 - INFO - validateMissingValueWholeColumn - File insurance_03112021_230000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 11:52:39,255 - INFO - validateMissingValueWholeColumn - File insurance_04112021_170000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 11:52:39,261 - INFO - validateMissingValueWholeColumn - File insurance_05112021_210000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 11:52:39,268 - INFO - validateMissingValueWholeColumn - File insurance_06112021_210000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 11:52:39,275 - INFO - validateMissingValueWholeColumn - File insurance_06112021_220000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 11:52:39,282 - INFO - validateMissingValueWholeColumn - File insurance_06112021_230000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 11:52:39,288 - INFO - validateMissingValueWholeColumn - File insurance_30102021_120000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 11:52:39,288 - INFO - validateMissingValueWholeColumn - Validated missing value in whole column successfully.
+2021-11-16 11:52:39,288 - INFO - validateMissingValueWholeColumn - Exited validateMissingValueWholeColumn method.
+2021-11-16 18:05:18,107 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-16 18:05:19,968 - INFO - validate_file_name - Entered validate_raw_input_data method...
+2021-11-16 18:05:19,968 - INFO - validate_file_name - Creating new folder for storing validated files...
+2021-11-16 18:05:19,988 - INFO - validate_file_name - New folder created successfully.
+2021-11-16 18:05:19,989 - INFO - validate_file_name - File insurace4112021_17000.csv having incorrect file name, moving to bad folder.
+2021-11-16 18:05:20,011 - INFO - validate_file_name - File insurance_01112021_500000.csv moved to good folder.
+2021-11-16 18:05:20,017 - INFO - validate_file_name - File insurance_02112021_150000.csv moved to good folder.
+2021-11-16 18:05:20,021 - INFO - validate_file_name - File insurance_03112021_230000.csv moved to good folder.
+2021-11-16 18:05:20,024 - INFO - validate_file_name - File insurance_04112021_170000.csv moved to good folder.
+2021-11-16 18:05:20,038 - INFO - validate_file_name - File insurance_05112021_210000.csv moved to good folder.
+2021-11-16 18:05:20,050 - INFO - validate_file_name - File insurance_06112021_210000.csv moved to good folder.
+2021-11-16 18:05:20,096 - INFO - validate_file_name - File insurance_06112021_220000.csv moved to good folder.
+2021-11-16 18:05:20,106 - INFO - validate_file_name - File insurance_06112021_230000.csv moved to good folder.
+2021-11-16 18:05:20,118 - INFO - validate_file_name - File insurance_30102021_120000.csv moved to good folder.
+2021-11-16 18:05:20,119 - INFO - validate_file_name - File isura1112021_500000.csv having incorrect file name, moving to bad folder.
+2021-11-16 18:05:20,121 - INFO - validate_file_name - File isurce_0211201_000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-16 18:05:20,125 - INFO - validate_file_name - File suance_0311202230000.csv having incorrect Date Stamp length, moving to bad folder.
+2021-11-16 18:05:20,129 - INFO - validate_file_name - Validated files moved successfully.
+2021-11-16 18:05:20,129 - INFO - validate_file_name - Exited validate_raw_input_data method...
+2021-11-16 18:05:20,129 - INFO - validateColumnLength - Entered validateColumnLength method...
+2021-11-16 18:05:20,465 - INFO - validateColumnLength - File insurance_01112021_500000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 18:05:20,471 - INFO - validateColumnLength - File insurance_02112021_150000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 18:05:20,477 - INFO - validateColumnLength - File insurance_03112021_230000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 18:05:20,483 - INFO - validateColumnLength - File insurance_04112021_170000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 18:05:20,500 - INFO - validateColumnLength - File insurance_05112021_210000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 18:05:20,516 - INFO - validateColumnLength - File insurance_06112021_210000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 18:05:20,529 - INFO - validateColumnLength - File insurance_06112021_220000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 18:05:20,542 - INFO - validateColumnLength - File insurance_06112021_230000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 18:05:20,549 - INFO - validateColumnLength - File insurance_30102021_120000.csv having correct number of columns, keeping it on good folder.
+2021-11-16 18:05:20,550 - INFO - validateColumnLength - Validated files moved successfully.
+2021-11-16 18:05:20,550 - INFO - validateMissingValueWholeColumn - Entered validateMissingValueWholeColumn method...
+2021-11-16 18:05:20,677 - INFO - validateMissingValueWholeColumn - File insurance_01112021_500000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 18:05:20,682 - INFO - validateMissingValueWholeColumn - File insurance_02112021_150000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 18:05:20,686 - INFO - validateMissingValueWholeColumn - File insurance_03112021_230000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 18:05:20,691 - INFO - validateMissingValueWholeColumn - File insurance_04112021_170000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 18:05:20,695 - INFO - validateMissingValueWholeColumn - File insurance_05112021_210000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 18:05:20,701 - INFO - validateMissingValueWholeColumn - File insurance_06112021_210000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 18:05:20,707 - INFO - validateMissingValueWholeColumn - File insurance_06112021_220000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 18:05:20,712 - INFO - validateMissingValueWholeColumn - File insurance_06112021_230000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 18:05:20,718 - INFO - validateMissingValueWholeColumn - File insurance_30102021_120000.csv having no missing value in whole column, keeping in good folder.
+2021-11-16 18:05:20,718 - INFO - validateMissingValueWholeColumn - Validated missing value in whole column successfully.
+2021-11-16 18:05:20,718 - INFO - validateMissingValueWholeColumn - Exited validateMissingValueWholeColumn method.
+2021-11-16 18:11:31,734 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-16 18:15:33,374 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-16 18:16:43,755 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-16 18:21:02,518 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-16 18:21:38,795 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-16 18:33:07,665 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-16 18:37:25,549 - INFO - __init__ - ------------------------------Season Divider------------------------------
+2021-11-16 18:40:21,799 - INFO - __init__ - ------------------------------Season Divider------------------------------

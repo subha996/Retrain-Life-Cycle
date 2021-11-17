@@ -1,0 +1,139 @@
+2021-10-30 21:58:36,609 - ERROR - create_directory - Directory path is not found or not valid.
+2021-10-30 21:58:36,610 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 21:58:36,610 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 21:58:36,611 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 21:58:36,611 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 21:58:36,611 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 21:58:36,612 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 21:58:36,612 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 21:58:36,613 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 21:58:36,613 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 21:58:36,613 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 21:58:36,614 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 21:58:36,614 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 21:58:36,614 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,475 - ERROR - create_directory - Directory path is not found or not valid.
+2021-10-30 22:02:54,476 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,476 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,477 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,477 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,477 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,478 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,478 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,478 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,478 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,479 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,479 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,479 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:02:54,480 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:36:12,305 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:36:12,492 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:36:12,493 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:36:12,493 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:40:32,708 - INFO - create_directory - Creating good bad folder...
+2021-10-30 22:40:32,708 - INFO - create_directory - good folder created
+2021-10-30 22:40:32,708 - INFO - create_directory - bad folder is created.
+2021-10-30 22:40:32,709 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:40:32,725 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:40:32,726 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:40:32,726 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:42:30,083 - INFO - create_directory - Creating good bad folder...
+2021-10-30 22:42:30,084 - INFO - create_directory - good folder created
+2021-10-30 22:42:30,084 - INFO - create_directory - bad folder is created.
+2021-10-30 22:42:30,085 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:42:30,133 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:42:30,133 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:42:30,134 - ERROR - move_file - Destination directory path is not found or not valid.
+2021-10-30 22:44:21,825 - INFO - create_directory - Creating good bad folder...
+2021-10-30 22:44:21,826 - INFO - create_directory - good folder created
+2021-10-30 22:44:21,827 - INFO - create_directory - bad folder is created.
+2021-10-30 22:45:35,607 - INFO - create_directory - Creating good bad folder...
+2021-10-30 22:45:35,607 - INFO - create_directory - good folder created
+2021-10-30 22:45:35,607 - INFO - create_directory - bad folder is created.
+2021-10-30 22:45:54,940 - INFO - create_directory - Creating good bad folder...
+2021-10-30 22:45:54,941 - INFO - create_directory - good folder created
+2021-10-30 22:45:54,966 - INFO - create_directory - bad folder is created.
+2021-11-12 23:28:11,527 - INFO - create_directory - Creating good bad folder...
+2021-11-12 23:28:11,535 - INFO - create_directory - good folder created
+2021-11-12 23:28:11,536 - INFO - create_directory - bad folder is created.
+2021-11-14 19:13:57,984 - ERROR - read_yaml_file - Error in reading yaml file: mapping values are not allowed here
+  in "./test1.yaml", line 3, column 14
+2021-11-14 19:14:20,023 - ERROR - read_yaml_file - Error in reading yaml file: mapping values are not allowed here
+  in "./test1.yaml", line 3, column 14
+2021-11-14 19:15:47,657 - ERROR - read_yaml_file - Error in reading yaml file: mapping values are not allowed here
+  in "./test1.yaml", line 5, column 14
+2021-11-14 19:17:17,244 - ERROR - read_yaml_file - Error in reading yaml file: mapping values are not allowed here
+  in "./test1.yaml", line 5, column 14
+2021-11-14 19:24:05,787 - ERROR - read_yaml_file - Error in reading yaml file: while scanning a double-quoted scalar
+  in "schema_file\sample_file_regex_pattern.yaml", line 2, column 18
+found unknown escape character 'd'
+  in "schema_file\sample_file_regex_pattern.yaml", line 2, column 43
+2021-11-14 19:24:27,077 - ERROR - read_yaml_file - Error in reading yaml file: while scanning a double-quoted scalar
+  in "schema_file\sample_file_regex_pattern.yaml", line 2, column 16
+found unknown escape character 'd'
+  in "schema_file\sample_file_regex_pattern.yaml", line 2, column 41
+2021-11-14 19:41:52,752 - ERROR - read_yaml_file - File path is not found or not valid.
+2021-11-14 20:20:04,641 - INFO - create_directory - Creating good bad folder...
+2021-11-14 20:20:04,641 - INFO - create_directory - Creating good bad folder...
+2021-11-14 20:20:04,642 - INFO - create_directory - good folder created
+2021-11-14 20:20:04,642 - INFO - create_directory - good folder created
+2021-11-14 20:20:04,642 - INFO - create_directory - bad folder is created.
+2021-11-14 20:20:04,642 - INFO - create_directory - bad folder is created.
+2021-11-14 20:22:23,027 - INFO - create_directory - Creating good bad folder...
+2021-11-14 20:22:23,027 - INFO - create_directory - Creating good bad folder...
+2021-11-14 20:22:23,029 - INFO - create_directory - good folder created
+2021-11-14 20:22:23,029 - INFO - create_directory - good folder created
+2021-11-14 20:22:23,110 - INFO - create_directory - bad folder is created.
+2021-11-14 20:22:23,110 - INFO - create_directory - bad folder is created.
+2021-11-14 20:28:26,542 - INFO - create_directory - Creating good bad folder...
+2021-11-14 20:28:26,542 - INFO - create_directory - Creating good bad folder...
+2021-11-14 20:28:26,575 - INFO - create_directory - good folder created
+2021-11-14 20:28:26,575 - INFO - create_directory - good folder created
+2021-11-14 20:28:26,576 - INFO - create_directory - bad folder is created.
+2021-11-14 20:28:26,576 - INFO - create_directory - bad folder is created.
+2021-11-14 20:28:55,995 - INFO - create_directory - Creating good bad folder...
+2021-11-14 20:28:55,995 - INFO - create_directory - Creating good bad folder...
+2021-11-14 20:28:56,043 - INFO - create_directory - good folder created
+2021-11-14 20:28:56,043 - INFO - create_directory - good folder created
+2021-11-14 20:28:56,044 - INFO - create_directory - bad folder is created.
+2021-11-14 20:28:56,044 - INFO - create_directory - bad folder is created.
+2021-11-14 20:29:48,580 - INFO - create_directory - Creating good bad folder...
+2021-11-14 20:29:48,580 - INFO - create_directory - Creating good bad folder...
+2021-11-14 20:29:48,581 - INFO - create_directory - good folder created
+2021-11-14 20:29:48,581 - INFO - create_directory - good folder created
+2021-11-14 20:29:48,581 - INFO - create_directory - bad folder is created.
+2021-11-14 20:29:48,581 - INFO - create_directory - bad folder is created.
+2021-11-16 11:49:22,890 - INFO - create_directory - Creating good bad folder...
+2021-11-16 11:49:22,900 - INFO - create_directory - good folder created
+2021-11-16 11:49:22,901 - INFO - create_directory - bad folder is created.
+2021-11-16 11:51:07,304 - INFO - create_directory - Creating good bad folder...
+2021-11-16 11:51:07,305 - INFO - create_directory - good folder created
+2021-11-16 11:51:07,306 - INFO - create_directory - bad folder is created.
+2021-11-16 11:52:39,063 - INFO - create_directory - Creating good bad folder...
+2021-11-16 11:52:39,064 - INFO - create_directory - good folder created
+2021-11-16 11:52:39,065 - INFO - create_directory - bad folder is created.
+2021-11-16 17:23:20,650 - ERROR - write_pickle_file - Error in saving model: [Errno 2] No such file or directory: 'Models\\Lasso\\Lasso_0.pkl'
+2021-11-16 17:23:20,650 - ERROR - write_pickle_file - Error in saving model: [Errno 2] No such file or directory: 'Models\\Lasso\\Lasso_0.pkl'
+2021-11-16 17:23:20,650 - ERROR - write_pickle_file - Error in saving model: [Errno 2] No such file or directory: 'Models\\Lasso\\Lasso_0.pkl'
+2021-11-16 17:23:20,650 - ERROR - write_pickle_file - Error in saving model: [Errno 2] No such file or directory: 'Models\\Lasso\\Lasso_0.pkl'
+2021-11-16 17:23:20,650 - ERROR - write_pickle_file - Error in saving model: [Errno 2] No such file or directory: 'Models\\Lasso\\Lasso_0.pkl'
+2021-11-16 17:23:20,650 - ERROR - write_pickle_file - Error in saving model: [Errno 2] No such file or directory: 'Models\\Lasso\\Lasso_0.pkl'
+2021-11-16 17:23:20,650 - ERROR - write_pickle_file - Error in saving model: [Errno 2] No such file or directory: 'Models\\Lasso\\Lasso_0.pkl'
+2021-11-16 18:05:19,968 - INFO - create_directory - Creating good bad folder...
+2021-11-16 18:05:19,968 - INFO - create_directory - Creating good bad folder...
+2021-11-16 18:05:19,968 - INFO - create_directory - Creating good bad folder...
+2021-11-16 18:05:19,987 - INFO - create_directory - good folder created
+2021-11-16 18:05:19,987 - INFO - create_directory - good folder created
+2021-11-16 18:05:19,987 - INFO - create_directory - good folder created
+2021-11-16 18:05:19,988 - INFO - create_directory - bad folder is created.
+2021-11-16 18:05:19,988 - INFO - create_directory - bad folder is created.
+2021-11-16 18:05:19,988 - INFO - create_directory - bad folder is created.
+2021-11-16 18:11:33,615 - ERROR - replace_null_with_NULL - Error in replacing null values with NULL: [Errno 2] No such file or directory: './Training_Validated_Raw_Files\\goodinsurance_01112021_500000.csv'
+2021-11-16 18:11:33,615 - ERROR - replace_null_with_NULL - Error in replacing null values with NULL: [Errno 2] No such file or directory: './Training_Validated_Raw_Files\\goodinsurance_01112021_500000.csv'
+2021-11-16 18:11:33,615 - ERROR - replace_null_with_NULL - Error in replacing null values with NULL: [Errno 2] No such file or directory: './Training_Validated_Raw_Files\\goodinsurance_01112021_500000.csv'
+2021-11-16 18:15:34,485 - ERROR - replace_null_with_NULL - Error in replacing null values with NULL: [Errno 2] No such file or directory: './Training_Validated_Raw_Files\\goodinsurance_01112021_500000.csv'
+2021-11-16 18:15:34,485 - ERROR - replace_null_with_NULL - Error in replacing null values with NULL: [Errno 2] No such file or directory: './Training_Validated_Raw_Files\\goodinsurance_01112021_500000.csv'
+2021-11-16 18:15:34,485 - ERROR - replace_null_with_NULL - Error in replacing null values with NULL: [Errno 2] No such file or directory: './Training_Validated_Raw_Files\\goodinsurance_01112021_500000.csv'
+2021-11-16 18:16:44,809 - ERROR - replace_null_with_NULL - Error in replacing null values with NULL: [Errno 2] No such file or directory: './Training_Validated_Raw_Files\\goodinsurance_01112021_500000.csv'
+2021-11-16 18:16:44,809 - ERROR - replace_null_with_NULL - Error in replacing null values with NULL: [Errno 2] No such file or directory: './Training_Validated_Raw_Files\\goodinsurance_01112021_500000.csv'
+2021-11-16 18:16:44,809 - ERROR - replace_null_with_NULL - Error in replacing null values with NULL: [Errno 2] No such file or directory: './Training_Validated_Raw_Files\\goodinsurance_01112021_500000.csv'

@@ -1,0 +1,7 @@
+alpha: 0.2
+fit_intercept: false
+max_iter: 100
+normalize: false
+positive: true
+selection: random
+tol: 0.1
