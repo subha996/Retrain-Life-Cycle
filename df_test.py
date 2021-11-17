@@ -20,6 +20,6 @@ l = [[(1,1), (2,2)], [(2,2),(4,5)], [(4,4)]]
 import itertools
 # flatten a list of lists
 l = list(itertools.chain(*l))
-for ix, pr in l:
-    print(ix, pr)
+
+print(l.index, l.values)
 #

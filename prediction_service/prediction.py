@@ -191,17 +191,19 @@ class Prediction():
                     self.logger.info(f"Prediction for cluster: {cluster_label} obtained")
 
             # if user chhose to keep features
-            if keep_features: # if user to choose keep features.
+            if keep_features: # if user choose keep features.
                 self.logger.info("User choose Keeping features in the dataframe")
                 # adding extra column to raw prediction dataframe
-                # unwraing targte prediction list
-                target_prediction_list = list(itertools.chain(*target_prediction_list)) # return list
+                # unwraing targte prediction list, it's list of list with cluster count. 
+                target_prediction_list = list(itertools.chain(*target_prediction_list)) # unwraping list.
+                # now ablove list is list of tuples.                                                                                        
+                
                 # running loop to enter prediction in correct index value
                 for index, prediction in target_prediction_list: # looping throug tupple:- (index, prediction_value)
-                    original_data.loc[index, "prediction"] = prediction # putting prediction into exact index position
+                    original_data.loc[index, "Prediction"] = prediction # putting prediction into exact index position
                 
                 # saving the dataframe as csv file
-                output_path = os.path.join("Prediction_Output_File", "Output.csv")
+                output_path = os.path.join("Prediction_Output_File", "Output_withFeature.csv")
                 original_data.to_csv(output_path, 
                                     index=False)
                 self.logger.info("Prediction output file saved with keeping features")
@@ -211,10 +213,14 @@ class Prediction():
             else: # if user chhose to drop features and keep prediction only.
                 self.logger.info("User choose Dropping features in the dataframe")
                 target_prediction_series = pd.Series(itertools.chain(*target_prediction_list)) # creating series from list
-                cluster_pred_df = pd.DataFrame(target_prediction_series, columns=["Prediction"]) # return dataframe
+                # creaing empty dataframe with two columns, index and prediction
+                prediction_df = pd.DataFrame(columns=["index", "Prediction"]) # return dataframe
+                for index, prediction in target_prediction_series: # looping through series
+                    prediction_df.loc[index, "Prediction"] = prediction # putting prediction into exact index position
+                
                 # saving the dataframe as csv file
-                saved_output_path = os.path.join("Prediction_Output_File", "Output.csv")
-                cluster_pred_df.to_csv(saved_output_path,
+                saved_output_path = os.path.join("Prediction_Output_File", "Output_OnlyPrediction.csv")
+                prediction_df.to_csv(saved_output_path,
                                         index=True)
                 self.logger.info("Prediction output file saved without keeping features")
 

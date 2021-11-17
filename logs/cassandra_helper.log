@@ -483,3 +483,11 @@
 2021-11-18 01:17:29,964 - INFO - __init__ - Connection established successfully.
 2021-11-18 01:18:16,207 - INFO - __init__ - Connecting to cassandra database.
 2021-11-18 01:18:17,883 - INFO - __init__ - Connection established successfully.
+2021-11-18 01:31:14,726 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 01:31:15,782 - INFO - __init__ - Connection established successfully.
+2021-11-18 01:35:16,512 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 01:35:18,000 - INFO - __init__ - Connection established successfully.
+2021-11-18 01:37:58,993 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 01:38:00,016 - INFO - __init__ - Connection established successfully.
+2021-11-18 01:38:11,641 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 01:38:12,954 - INFO - __init__ - Connection established successfully.

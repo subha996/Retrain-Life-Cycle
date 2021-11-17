@@ -1,4 +1,4 @@
-age,sex,bmi,children,smoker,region,prediction
+age,sex,bmi,children,smoker,region,Prediction
 19,female,27.9,0,yes,southwest,16884.92
 18,male,33.8,1,no,southeast,5226.991625241226
 28,male,33.0,3,no,southeast,4475.15576171875
