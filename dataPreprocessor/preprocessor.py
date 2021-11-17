@@ -102,18 +102,23 @@ class DataPreprocessor():
             raise e
 
 
-
-
-
     # Function to impute missing values
-    def impute_missing_values(self, dataframe: object) -> object:
+    def impute_missing_values(self, dataframe: DataFrame) -> DataFrame:
         """
         Method to impute missing values.
         Description: This method will be used to impute missing values in the dataframe.
+
+        Parameters:
+                dataframe: The dataframe to be processed.
+        
+        Returns:
+                dataframe: The dataframe with missing values imputed.
+            
+        Version: 0.0.1
         """
         try:
             self.logger.info("Impute missing values...")
-            imputer = KNNImputer(n_neighbors=3)
+            imputer = KNNImputer(n_neighbors=3) # Create an instance of KNNImputer: with 3 nearest neighbors
             data_array = imputer.fit_transform(dataframe) # Impute the missing values
             # converting data_array to dataframe
             dataframe = pd.DataFrame(data_array, columns=dataframe.columns) # Convert the array to dataframe
@@ -126,7 +131,7 @@ class DataPreprocessor():
     
 
     # Function to get column with zero standard deviation
-    def get_column_with_zero_std_dev(self, dataframe: object) -> list:
+    def get_column_with_zero_std_dev(self, dataframe: DataFrame) -> list:
         """
         Method to get column with zero standard deviation.
         Description: This method will be used to get column with zero standard deviation.

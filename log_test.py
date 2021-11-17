@@ -20,34 +20,49 @@
 
 # tr.train()
 
-import pandas as pd
+# import pandas as pd
 
-d = {
-    "age":19,
-     "sex": "female",
-     "bmi": 27.9,
-     "children":2,
-     "smoker": "yes",
-     "region": "southeast",
-}
+# d = {
+#     "age":19,
+#      "sex": "female",
+#      "bmi": 27.9,
+#      "children":2,
+#      "smoker": "yes",
+#      "region": "southeast",
+# }
 
-df = pd.DataFrame(d, index=[0])
+# df = pd.DataFrame(d, index=[0])
 
-import joblib
-trans = joblib.load("ColumnTransformer\column_transformer.pkl")
+# import joblib
+# trans = joblib.load("ColumnTransformer\column_transformer.pkl")
 
-scal_data = trans.transform(df)
-print(scal_data)
+# scal_data = trans.transform(df)
+# print(scal_data)
 
-print(scal_data.shape)
+# print(scal_data.shape)
 
-clus = joblib.load("Models\kmeans_clustering\kmeans_clustering.pkl")
-c_n = clus.predict(scal_data)
-print(c_n[0])
+# clus = joblib.load("Models\kmeans_clustering\kmeans_clustering.pkl")
+# c_n = clus.predict(scal_data)
+# print(c_n[0])
 
-model = joblib.load("Models\AdaBoostRegressor2\AdaBoostRegressor_2.pkl")
+# model = joblib.load("Models\AdaBoostRegressor2\AdaBoostRegressor_2.pkl")
 
-pred = model.predict(scal_data)
-print(pred)
+# pred = model.predict(scal_data)
+# print(pred)
 
 # SUCCESSS........................
+
+from prediction_service.prediction import Prediction
+
+
+pred = Prediction()
+
+# data pull
+# pred.data_pull()
+
+df = pred.prediction_data_preprocessing()
+print(df.shape)
+
+pred.prediction_batch_data(df, keep_features=True)
+    
+

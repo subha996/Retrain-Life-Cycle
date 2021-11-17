@@ -284,6 +284,8 @@ class DataGetter():
             print("Error in writing yaml file: {}".format(e))
             self.log.error("Error in writing yaml file: {}".format(e))
             raise e
+
+
     
 
     

@@ -435,3 +435,51 @@
 2021-11-16 18:40:43,572 - INFO - send_csv - Data inserted successfully. on train_data77 table
 2021-11-16 18:40:43,573 - INFO - send_csv - Exiting send_csv methode... with clossing the seasson
 2021-11-16 18:40:43,573 - INFO - send_csv - Session is closed.
+2021-11-17 23:57:19,035 - INFO - __init__ - Connecting to cassandra database.
+2021-11-17 23:57:20,814 - INFO - __init__ - Connection established successfully.
+2021-11-17 23:59:25,525 - INFO - __init__ - Connecting to cassandra database.
+2021-11-17 23:59:27,093 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:00:57,765 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:00:59,503 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:02:54,852 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:02:56,423 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:08:00,151 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:08:01,287 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:11:20,525 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:11:22,206 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:13:49,688 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:13:50,760 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:14:36,670 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:14:38,056 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:15:34,284 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:15:35,913 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:16:19,816 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:16:21,070 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:18:09,163 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:18:10,820 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:20:45,891 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:20:47,503 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:21:14,994 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:21:16,618 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:39:58,712 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:40:00,307 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:43:04,946 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:43:06,601 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:44:34,331 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:44:35,339 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:47:57,551 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:47:58,554 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:49:31,444 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:49:33,086 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:50:07,950 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:50:08,961 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:51:32,592 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:51:34,226 - INFO - __init__ - Connection established successfully.
+2021-11-18 00:52:05,771 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 00:52:06,804 - INFO - __init__ - Connection established successfully.
+2021-11-18 01:15:58,816 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 01:16:00,152 - INFO - __init__ - Connection established successfully.
+2021-11-18 01:17:28,957 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 01:17:29,964 - INFO - __init__ - Connection established successfully.
+2021-11-18 01:18:16,207 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 01:18:17,883 - INFO - __init__ - Connection established successfully.
