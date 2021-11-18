@@ -71,7 +71,7 @@ class DataTransformation():
         try:
             # Validating the file path its string type
             if not isinstance(data, pd.DataFrame):
-                raise TypeError("data must be pandas DataFrame object.") # raising error if file path is not string type
+                raise TypeError("data must be pandas DataFrame object.") # raising error if file not dataframe type
             
             # replacing null values with np.nan
             data = data.replace("NULL", np.nan) # replacing null values with np.nan
