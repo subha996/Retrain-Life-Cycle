@@ -2,7 +2,7 @@
 # Date: 14-Nov-2021
 # Osprey was here...
 #-----------------------------------------------------------------------------------------------------#
-
+import os
 from applicationlogger.setup_logger import setup_logger
 # Importing libraries for the model
 from sklearn.linear_model import LinearRegression
@@ -27,13 +27,14 @@ from utils.fileoperation import DataGetter
 
 
 class RegressionModelFinder:
-    def __init__(self):
+    def __init__(self, cluster_no):
         """
         Initialize the class with the logger.
         """
         self.logger = setup_logger("model_finder_log", 
                                     "logs/model_finder.log") # Logger
         self.utils = DataGetter() # Creating an object of DataGetter class
+        self.cluster_no = cluster_no # Cluster number
 
     
     # Function to find the best from Linear Regression
@@ -104,7 +105,10 @@ class RegressionModelFinder:
             max_iter = best_params["max_iter"]
             
             # Writing the best parameters in yaml file
-            self.utils.write_yaml_file("best_params\\Ridge_params.yaml", best_params)
+            best_params_path = os.path.join("BestParams", "Ridge_Cluster_", str(self.cluster_no) + "Ridge.yaml")
+            # making directory if not exists
+            os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
+            self.utils.write_yaml_file(best_params_path, best_params)
             self.logger.info("Best Parameter value are stored in yaml file.")
             # Creating model with best parameters
             ridge_best = Ridge(alpha=alpha,
@@ -168,7 +172,10 @@ class RegressionModelFinder:
             selection = best_params["selection"]
             
             # Writing the best parameters in yaml file
-            self.utils.write_yaml_file("best_params\\Lasso_params.yaml", best_params)
+            best_params_path = os.path.join("BestParams", "Lasso_Cluster_", str(self.cluster_no) + "Lasso.yaml")
+            # making directory if not exists
+            os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
+            self.utils.write_yaml_file(best_params_path, best_params)
             self.logger.info("Best Parameter value are stored in yaml file.")
 
             # Creating model with best parameters
@@ -237,7 +244,10 @@ class RegressionModelFinder:
             selection = best_params["selection"]
             
             # Writing the best parameters in yaml file
-            self.utils.write_yaml_file("best_params\\ElasticNet_params.yaml", best_params)
+            best_params_path = os.path.join("BestParams", "ElasticNet_Cluster_", str(self.cluster_no) + "ElasticNet.yaml")
+            # making directory if not exists
+            os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
+            self.utils.write_yaml_file(best_params_path, best_params)
             self.logger.info("Best Parameter value are stored in yaml file.")
 
             # Creating model with best parameters
@@ -305,7 +315,10 @@ class RegressionModelFinder:
             max_features = best_params["max_features"]
 
             # Writing the best parameters in yaml file
-            self.utils.write_yaml_file("best_params\\DecisionTreeRegressor_params.yaml", best_params)
+            best_params_path = os.path.join("BestParams", "DecisionTree_Cluster_", str(self.cluster_no) + "DecisionTree.yaml")
+            # making directory if not exists
+            os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
+            self.utils.write_yaml_file(best_params_path, best_params)
             self.logger.info("Best Parameter value are stored in yaml file.")
 
             # Creating model with best parameters
@@ -373,7 +386,10 @@ class RegressionModelFinder:
             oob_score = best_params["oob_score"]
 
             # Writing the best parameters in yaml file
-            self.utils.write_yaml_file("best_params\\RandomForestRegressor_params.yaml", best_params)
+            best_params_path = os.path.join("BestParams", "RandomForest_Cluster_", str(self.cluster_no) + "RandomForest.yaml")
+            # making directory if not exists
+            os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
+            self.utils.write_yaml_file(best_params_path, best_params)
             self.logger.info("Best Parameter value are stored in yaml file.")
 
             # Creating model with best parameters
@@ -440,7 +456,10 @@ class RegressionModelFinder:
             max_features = best_params["max_features"]
 
             # Writing the best parameters in yaml file
-            self.utils.write_yaml_file("best_params\\GradientBoostRegressor_params.yaml", best_params)
+            best_params_path = os.path.join("BestParams", "GradientBoost_Cluster_", str(self.cluster_no) + "GradientBoost.yaml")
+            # making directory if not exists
+            os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
+            self.utils.write_yaml_file(best_params_path, best_params)
 
             self.logger.info("Best Parameter value are stored in yaml file.")
 
@@ -505,7 +524,10 @@ class RegressionModelFinder:
             n_estimators = best_params["n_estimators"]
 
             # Writing the best parameters in yaml file
-            self.utils.write_yaml_file("best_params\\AdaBoostRegressor_params.yaml", best_params)
+            best_params_path = os.path.join("BestParams", "AdaBoost_Cluster_", str(self.cluster_no) + "AdaBoost.yaml")
+            # making directory if not exists
+            os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
+            self.utils.write_yaml_file(best_params_path, best_params)
 
             self.logger.info("Best Parameter value are stored in yaml file.")
 
@@ -570,7 +592,10 @@ class RegressionModelFinder:
             oob_score = best_params["oob_score"]
 
             # Writing the best parameters in yaml file
-            self.utils.write_yaml_file("best_params\\ExtraTreeRegressor_params.yaml", best_params)
+            best_params_path = os.path.join("BestParams", "ExtraTree_Cluster_", str(self.cluster_no) + "ExtraTree.yaml")
+            # making directory if not exists
+            os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
+            self.utils.write_yaml_file(best_params_path, best_params)
             self.logger.info("Best Parameter value are stored in yaml file.")
 
             # Creating model with best parameters
@@ -634,7 +659,10 @@ class RegressionModelFinder:
             max_depth = best_params["max_depth"]
 
             # Writing the best parameters in yaml file
-            self.utils.write_yaml_file("best_params\\XGBRegressor_params.yaml", best_params)
+            best_params_path = os.path.join("BestParams", "XGBoost_Cluster_", str(self.cluster_no) + "XGBoost.yaml")
+            # making directory if not exists
+            os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
+            self.utils.write_yaml_file(best_params_path, best_params)
             self.logger.info("Best Parameter value are stored in yaml file.")
 
             # Creating model with best parameters
@@ -699,7 +727,10 @@ class RegressionModelFinder:
            
 
             # Writing the best parameters in yaml file
-            self.utils.write_yaml_file("best_params\\SVR_params.yaml", best_params)
+            best_params_path = os.path.join("BestParams", "SVR_Cluster_", str(self.cluster_no) + "SVR.yaml")
+            # making directory if not exists
+            os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
+            self.utils.write_yaml_file(best_params_path, best_params)
             self.logger.info("Best Parameter value are stored in yaml file.")
 
             # Creating model with best parameters
@@ -765,7 +796,9 @@ class RegressionModelFinder:
             p = best_params["p"]
 
             # Writing the best parameters in yaml file
-            self.utils.write_yaml_file("best_params\\KNeighborsRegressor_params.yaml", best_params)
+            best_params_path = os.path.join("BestParams", "KNeighborsRegressor_Cluster_", str(self.cluster_no) + "KNeighborsRegressor.yaml")
+            # making directory if not exists
+            os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
             self.logger.info("Best Parameter value are stored in yaml file.")
 
             # Creating model with best parameters

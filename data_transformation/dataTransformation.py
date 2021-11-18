@@ -43,7 +43,8 @@ class DataTransformation():
                 # Looping through the list of files
                 for file in raw_batch_files:
                     # Reading the file
-                    data = pd.read_csv(raw_batch_folder_path + file, low_memory=False)
+                    csv_path = os.path.join(raw_batch_folder_path, file)
+                    data = pd.read_csv(csv_path, low_memory=False)
                     # Replacing null values with NULL
                     data = data.fillna("NULL") # replacing null values with NULL
                     # Writing the dataframe to the file into same file path.

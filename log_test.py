@@ -50,19 +50,29 @@
 # pred = model.predict(scal_data)
 # print(pred)
 
-# SUCCESSS........................
+# # SUCCESSS........................
 
-from prediction_service.prediction import Prediction
+# from prediction_service.prediction import Prediction
 
 
-pred = Prediction()
+# pred = Prediction()
 
-# data pull
-# pred.data_pull()
+# # data pull
+# # pred.data_pull()
 
-df = pred.prediction_data_preprocessing()
-print(df.shape)
+# df = pred.prediction_data_preprocessing()
+# print(df.shape)
 
-pred.prediction_batch_data(df, keep_features=True)
+# pred.prediction_batch_data(df, keep_features=True)
+
+import os
+path = os.path.join("test_folder1", "test_subfolder" + str(0), "test.yaml")
+os.makedirs(os.path.dirname(path), exist_ok=True)
+import yaml
+dic = {"g":3, "h":4}
+ # saving data to yaml file
+with open(path, 'w') as outfile:
+    yaml.dump(dic, outfile, default_flow_style=False)
+
     
 

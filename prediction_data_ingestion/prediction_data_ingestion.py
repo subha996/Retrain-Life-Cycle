@@ -12,9 +12,9 @@ from utils.fileoperation import DataGetter
 
 
 
-class TrainDataIngestion():
+class PredictionDataIngestion():
     """
-    Class for data validation and Ingestion into database.
+    Class for prediction data validation and Ingestion into database.
     """
     def __init__(self, predict_batch_directory: str):
 
@@ -30,7 +30,7 @@ class TrainDataIngestion():
         self.database = CassandraHelper() # cassandra helper class for database connection
 
 
-    def validate_training_data(self):
+    def validate_prediction_data(self):
         """
         This function will validate the raw data and write the good and bad files into respective folders.
         Parameter: 

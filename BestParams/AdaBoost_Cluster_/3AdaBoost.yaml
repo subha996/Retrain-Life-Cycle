@@ -1,0 +1,3 @@
+learning_rate: 0.1
+loss: linear
+n_estimators: 80

@@ -57,6 +57,7 @@ class TrainingDataPreprocessing():
             self.logger.info("Getting column with zero standard deviation...")
             col_list_zero_std = self.dataPreprocessor.get_column_with_zero_std_dev(data) # return list of column with zero standard deviation.
             self.logger.info("Column with zero standard deviation: {}".format(col_list_zero_std))
+            
             # removing the column with zero standard deviatio
             if len(col_list_zero_std) > 0:
                 data = self.dataPreprocessor.remove_columns(data, col_list_zero_std) # removing the column with zero standard deviation.
@@ -102,7 +103,7 @@ class TrainingDataPreprocessing():
             X = column_transformer.fit_transform(X) # return array.
 
             # converting it to dataframe
-            X = pd.DataFrame(X) # Note this datafrmae column names will be changed. as 0, 1, 2 so on.
+            df = pd.DataFrame(X) # Note this datafrmae column names will be changed. as 0, 1, 2 so on.
             
             # savinng the pipeline in local directory
             file_directory = "./ColumnTransformer" # saving the pipeline in local directory.
@@ -112,8 +113,8 @@ class TrainingDataPreprocessing():
                                         file_path=file_path) # saving the pipeline in local directory.
             self.logger.info("Saving pipeline for data scaling and encoding Completed.")
             
-            X["expenses"] = y # adding the target column to the dataframe.
-            return X # return the dataframe.
+            df["expenses"] = y # adding the target column to the dataframe.
+            return df # return the dataframe.
         
         except Exception as e:
             self.logger.error("Error while saving pipeline for data scaling and encoding. Error: {}".format(e))

@@ -16,14 +16,15 @@ class ModelTuner():
     """
     This class shall use to find best model on train data.
     """
-    def __init__(self, X_train, X_test, y_train, y_test):
+    def __init__(self, X_train, X_test, y_train, y_test, cluster_no):
 
         self.X_train = X_train
         self.X_test = X_test
         self.y_train = y_train
         self.y_test = y_test
+        self.cluster_no = cluster_no
         self.utils = DataGetter()
-        self.model_finder = RegressionModelFinder() # Initializing model finder.
+        self.model_finder = RegressionModelFinder(self.cluster_no) # Initializing model finder.
         self.logger = setup_logger("modelTunerLig",
                                     "model_tuner.log") # Initializing logger.
         self.logger.info("Model tuner initialized. " + "-"*50) # Season divider.

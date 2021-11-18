@@ -154,7 +154,7 @@ class Prediction():
             # # Creating empty list of models
             models_list = list() # 
             # looping thorugh all the files in the directory
-            for root, folder, file in os.walk("./Models"): # looping through all the files in the directory.
+            for root, _, file in os.walk("./Models"): # looping through all the files in the directory.
                 for filename in file:
                     if filename.endswith(".pkl"):
                         models_list.append(os.path.join(root, filename)) # path to full model file
@@ -178,16 +178,20 @@ class Prediction():
                     if cluster_no == str(cluster_label): # if cluster number matches
                         model = joblib.load(model) # return model
                         self.logger.info(f"Model for cluster: {cluster_label} loaded")
+                        print(f"Model for cluster: {cluster_label} loaded")
                     else:
                         continue
                     # getting the prediction for the cluster
                     self.logger.info("Getting the prediction for the cluster: " + str(cluster_label))
                     # droping cluster labels from the dataframe
                     cluster_df = cluster_df.drop(["cluster_labels"], axis=1) # return dataframe
+                    print(f"Shape of dataframe for cluster: {cluster_label} is: {cluster_df.shape}")
                     target_pred = list(model.predict(cluster_df)) # return list of predictions
+                    print("Predicton done for " + str(cluster_label))
 
                     # zipping it with index no before adding to the list
                     target_prediction_list.append(list(zip(storing_index_number, target_pred))) # return list of predictions
+                    print("prediction added for cluster "+ str(cluster_label))
                     self.logger.info(f"Prediction for cluster: {cluster_label} obtained")
 
             # if user chhose to keep features

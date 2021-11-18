@@ -10,6 +10,7 @@ from TrainingDataPreprocessing.trainingDataPreprocessing import TrainingDataPrep
 from TrainingDataPreprocessing.clustering import KMenasClustering
 from sklearn.model_selection import train_test_split
 from Model_Finder.modelTuner import ModelTuner
+import shutil
 
 
 
@@ -24,7 +25,9 @@ class Train():
         self.utils = DataGetter() # object of DataGetter class
         self.trainPreprocessor = TrainingDataPreprocessing() # object of TrainingDataPreprocessing class
         self.clustering = KMenasClustering() # object of KMenasClustering class
-
+        
+        # removing existing model directory
+        shutil.rmtree("./Models")  # deleting existing prebuild models.
     
     def preprocess(self):
         """
@@ -80,7 +83,7 @@ class Train():
 
             # now looping through the cluster number and train the model
             self.logger.info(f"Total {cluster_number} has been found and start looping through all cluster...")
-            for cluster in range(0, cluster_number):
+            for cluster in data_with_cluster["cluster_label"].unique():
                 # getting the dataframe for cluster i
                 cluster_data = data_with_cluster[data_with_cluster['cluster_label'] == cluster] # return DataFrame
                 
@@ -97,7 +100,8 @@ class Train():
                 tuner = ModelTuner(X_train, 
                                 X_test, 
                                 y_train, 
-                                y_test)
+                                y_test,
+                                cluster)
                 
                 # getting the best model
                 best_model_name, best_model = tuner.run_model_tuner(cluster_number=cluster,

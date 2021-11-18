@@ -1,0 +1,8 @@
+C: 0.1
+coef0: 0.1
+degree: 1
+gamma: auto
+kernel: linear
+max_iter: 100
+shrinking: true
+tol: 0.01

@@ -491,3 +491,255 @@
 2021-11-18 01:38:00,016 - INFO - __init__ - Connection established successfully.
 2021-11-18 01:38:11,641 - INFO - __init__ - Connecting to cassandra database.
 2021-11-18 01:38:12,954 - INFO - __init__ - Connection established successfully.
+2021-11-18 22:37:21,950 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 22:37:24,752 - INFO - __init__ - Connection established successfully.
+2021-11-18 22:44:19,203 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 22:44:24,930 - ERROR - __init__ - Error in connecting to database.Unable to connect to the metadata service at https://edf49c99-5f29-43a3-ad7f-b2539e0bad31-us-east-1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+2021-11-18 22:45:27,715 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 22:45:28,963 - INFO - __init__ - Connection established successfully.
+2021-11-18 22:48:53,241 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 22:48:54,383 - INFO - __init__ - Connection established successfully.
+2021-11-18 22:52:19,700 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 22:52:21,013 - INFO - __init__ - Connection established successfully.
+2021-11-18 22:52:21,043 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 22:52:21,043 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 22:52:22,052 - INFO - __init__ - Connection established successfully.
+2021-11-18 22:52:22,052 - INFO - __init__ - Connection established successfully.
+2021-11-18 23:15:35,193 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 23:15:36,929 - INFO - __init__ - Connection established successfully.
+2021-11-18 23:15:36,930 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 23:15:36,930 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 23:15:38,506 - INFO - __init__ - Connection established successfully.
+2021-11-18 23:15:38,506 - INFO - __init__ - Connection established successfully.
+2021-11-18 23:20:44,081 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 23:20:45,398 - INFO - __init__ - Connection established successfully.
+2021-11-18 23:22:54,757 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 23:22:56,438 - INFO - __init__ - Connection established successfully.
+2021-11-18 23:22:56,438 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 23:22:56,438 - INFO - __init__ - Connecting to cassandra database.
+2021-11-18 23:22:57,461 - INFO - __init__ - Connection established successfully.
+2021-11-18 23:22:57,461 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:07:04,619 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:07:06,319 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:07:06,722 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:07:06,722 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:07:08,275 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:07:08,275 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:10:20,121 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:10:20,121 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:10:20,121 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:10:21,186 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:10:21,186 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:10:21,186 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:10:21,434 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:10:21,434 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:10:21,434 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:10:21,434 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:10:23,077 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:10:23,077 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:10:23,077 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:10:23,077 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:12:46,559 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:12:46,559 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:12:46,559 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:12:46,559 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:12:46,559 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:12:47,598 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:12:47,598 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:12:47,598 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:12:47,598 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:12:47,598 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:12:47,901 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:12:47,901 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:12:47,901 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:12:47,901 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:12:47,901 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:12:47,901 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:12:48,866 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:12:48,866 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:12:48,866 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:12:48,866 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:12:48,866 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:12:48,866 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:13,964 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:13,964 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:13,964 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:13,964 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:13,964 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:13,964 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:13,964 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:15,012 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:15,012 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:15,012 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:15,012 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:15,012 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:15,012 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:15,012 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:15,285 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:15,285 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:15,285 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:15,285 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:15,285 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:15,285 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:15,285 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:15,285 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:14:16,882 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:16,882 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:16,882 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:16,882 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:16,882 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:16,882 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:16,882 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:16,882 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:14:16,887 - INFO - get_data - Connecting to cluster
+2021-11-19 00:14:16,887 - INFO - get_data - Connecting to cluster
+2021-11-19 00:14:16,887 - INFO - get_data - Connecting to cluster
+2021-11-19 00:14:16,887 - INFO - get_data - Connecting to cluster
+2021-11-19 00:14:16,887 - INFO - get_data - Connecting to cluster
+2021-11-19 00:14:16,887 - INFO - get_data - Connecting to cluster
+2021-11-19 00:14:16,887 - INFO - get_data - Connecting to cluster
+2021-11-19 00:14:16,887 - INFO - get_data - Connecting to cluster
+2021-11-19 00:14:32,326 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:14:32,326 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:14:32,326 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:14:32,326 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:14:32,326 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:14:32,326 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:14:32,326 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:14:32,326 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:14:32,327 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:14:32,327 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:14:32,327 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:14:32,327 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:14:32,327 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:14:32,327 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:14:32,327 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:14:32,327 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:14:32,760 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:14:32,760 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:14:32,760 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:14:32,760 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:14:32,760 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:14:32,760 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:14:32,760 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:14:32,760 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:14:32,761 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:14:32,761 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:14:32,761 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:14:32,761 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:14:32,761 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:14:32,761 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:14:32,761 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:14:32,761 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:14:32,763 - INFO - get_data - Session is closed.
+2021-11-19 00:14:32,763 - INFO - get_data - Session is closed.
+2021-11-19 00:14:32,763 - INFO - get_data - Session is closed.
+2021-11-19 00:14:32,763 - INFO - get_data - Session is closed.
+2021-11-19 00:14:32,763 - INFO - get_data - Session is closed.
+2021-11-19 00:14:32,763 - INFO - get_data - Session is closed.
+2021-11-19 00:14:32,763 - INFO - get_data - Session is closed.
+2021-11-19 00:14:32,763 - INFO - get_data - Session is closed.
+2021-11-19 00:15:33,827 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:33,827 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:33,827 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:33,827 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:33,827 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:33,827 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:33,827 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:33,827 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:33,827 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:35,459 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:35,459 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:35,459 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:35,459 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:35,459 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:35,459 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:35,459 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:35,459 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:35,459 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:35,644 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:35,644 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:35,644 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:35,644 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:35,644 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:35,644 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:35,644 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:35,644 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:35,644 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:35,644 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:15:36,700 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:36,700 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:36,700 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:36,700 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:36,700 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:36,700 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:36,700 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:36,700 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:36,700 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:36,700 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:15:36,704 - INFO - get_data - Connecting to cluster
+2021-11-19 00:15:36,704 - INFO - get_data - Connecting to cluster
+2021-11-19 00:15:36,704 - INFO - get_data - Connecting to cluster
+2021-11-19 00:15:36,704 - INFO - get_data - Connecting to cluster
+2021-11-19 00:15:36,704 - INFO - get_data - Connecting to cluster
+2021-11-19 00:15:36,704 - INFO - get_data - Connecting to cluster
+2021-11-19 00:15:36,704 - INFO - get_data - Connecting to cluster
+2021-11-19 00:15:36,704 - INFO - get_data - Connecting to cluster
+2021-11-19 00:15:36,704 - INFO - get_data - Connecting to cluster
+2021-11-19 00:15:36,704 - INFO - get_data - Connecting to cluster
+2021-11-19 00:16:01,843 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:16:01,843 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:16:01,843 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:16:01,843 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:16:01,843 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:16:01,843 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:16:01,843 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:16:01,843 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:16:01,843 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:16:01,843 - INFO - get_data - Connection is ready to Cluster
+2021-11-19 00:16:01,844 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:16:01,844 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:16:01,844 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:16:01,844 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:16:01,844 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:16:01,844 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:16:01,844 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:16:01,844 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:16:01,844 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:16:01,844 - INFO - get_data - Pulling data from cloud...
+2021-11-19 00:16:02,094 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:16:02,094 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:16:02,094 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:16:02,094 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:16:02,094 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:16:02,094 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:16:02,094 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:16:02,094 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:16:02,094 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:16:02,094 - ERROR - get_data - Error in get_data methode.Error from server: code=2200 [Invalid query] message="table insurance1.predict_data77 does not exist"
+2021-11-19 00:16:02,095 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:16:02,095 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:16:02,095 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:16:02,095 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:16:02,095 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:16:02,095 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:16:02,095 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:16:02,095 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:16:02,095 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:16:02,095 - INFO - get_data - Exiting get_data methode... with clossing the seasson
+2021-11-19 00:16:04,746 - INFO - get_data - Session is closed.
+2021-11-19 00:16:04,746 - INFO - get_data - Session is closed.
+2021-11-19 00:16:04,746 - INFO - get_data - Session is closed.
+2021-11-19 00:16:04,746 - INFO - get_data - Session is closed.
+2021-11-19 00:16:04,746 - INFO - get_data - Session is closed.
+2021-11-19 00:16:04,746 - INFO - get_data - Session is closed.
+2021-11-19 00:16:04,746 - INFO - get_data - Session is closed.
+2021-11-19 00:16:04,746 - INFO - get_data - Session is closed.
+2021-11-19 00:16:04,746 - INFO - get_data - Session is closed.
+2021-11-19 00:16:04,746 - INFO - get_data - Session is closed.
+2021-11-19 00:17:03,133 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:17:04,169 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:17:04,171 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:17:04,171 - INFO - __init__ - Connecting to cassandra database.
+2021-11-19 00:17:05,748 - INFO - __init__ - Connection established successfully.
+2021-11-19 00:17:05,748 - INFO - __init__ - Connection established successfully.

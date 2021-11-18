@@ -1,0 +1,6 @@
+alpha: 0.2
+fit_intercept: true
+max_iter: 100
+normalize: true
+solver: auto
+tol: 0.01
