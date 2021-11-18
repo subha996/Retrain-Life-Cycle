@@ -3,6 +3,8 @@
 # Osprey was here...
 
 import os
+
+from pandas.core.frame import DataFrame
 from applicationlogger.setup_logger import setup_logger
 import pandas as pd
 import numpy as np
@@ -55,7 +57,7 @@ class DataTransformation():
             raise e
 
     # Function to replace NULL with np.nan
-    def replace_NULL_with_np_nan(self, data) -> None:
+    def replace_NULL_with_np_nan(self, data: DataFrame) -> DataFrame:
         """
         Method: replace_NULL_with_np_nan
         Description: This method is used to replace NULL values with np.nan in the dataframe
@@ -69,7 +71,7 @@ class DataTransformation():
         try:
             # Validating the file path its string type
             if not isinstance(data, pd.DataFrame):
-                raise TypeError("File path Must be String(str) type object.") # raising error if file path is not string type
+                raise TypeError("data must be pandas DataFrame object.") # raising error if file path is not string type
             
             # replacing null values with np.nan
             data = data.replace("NULL", np.nan) # replacing null values with np.nan
