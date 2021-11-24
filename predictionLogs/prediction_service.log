@@ -1,0 +1,33 @@
+2021-11-24 18:46:42,774 - INFO - __init__ - Prediction class initialized**************************************************
+2021-11-24 18:46:43,820 - INFO - prediction_data_preprocessing - Started preprocessing data...
+2021-11-24 18:46:43,825 - INFO - prediction_data_preprocessing - Preprocessing data...
+2021-11-24 18:46:43,826 - INFO - prediction_data_preprocessing - No missing values found in the prediction dataset.
+2021-11-24 18:46:43,830 - INFO - prediction_data_preprocessing - No columns with zero standard deviation found in the data
+2021-11-24 18:46:43,830 - INFO - prediction_data_preprocessing - Scaling and encoding data...
+2021-11-24 18:46:43,884 - INFO - prediction_data_preprocessing - Data scaled and encoded
+2021-11-24 18:46:43,885 - INFO - prediction_data_preprocessing - Array converted to dataframe Returning dataframe.
+2021-11-24 18:46:43,889 - INFO - prediction_batch_data - Started prediction on batch data...
+2021-11-24 18:46:43,889 - INFO - prediction_batch_data - Loading Clustering model
+2021-11-24 18:46:43,899 - INFO - prediction_batch_data - Clustering model loaded
+2021-11-24 18:46:43,899 - INFO - prediction_batch_data - Getting the cluster labels
+2021-11-24 18:46:44,161 - INFO - prediction_batch_data - Cluster labels added to the dataframe
+2021-11-24 18:46:44,162 - INFO - prediction_batch_data - Looping through each cluster Started...
+2021-11-24 18:46:44,164 - INFO - prediction_batch_data - Loading model for cluster: 3
+2021-11-24 18:46:44,349 - INFO - prediction_batch_data - Model for cluster: 3 loaded
+2021-11-24 18:46:44,349 - INFO - prediction_batch_data - Getting the prediction for the cluster: 3
+2021-11-24 18:46:44,377 - INFO - prediction_batch_data - Prediction for cluster: 3 obtained
+2021-11-24 18:46:44,378 - INFO - prediction_batch_data - Loading model for cluster: 0
+2021-11-24 18:46:44,459 - INFO - prediction_batch_data - Model for cluster: 0 loaded
+2021-11-24 18:46:44,460 - INFO - prediction_batch_data - Getting the prediction for the cluster: 0
+2021-11-24 18:46:44,488 - INFO - prediction_batch_data - Prediction for cluster: 0 obtained
+2021-11-24 18:46:44,489 - INFO - prediction_batch_data - Loading model for cluster: 1
+2021-11-24 18:46:44,579 - INFO - prediction_batch_data - Model for cluster: 1 loaded
+2021-11-24 18:46:44,579 - INFO - prediction_batch_data - Getting the prediction for the cluster: 1
+2021-11-24 18:46:44,607 - INFO - prediction_batch_data - Prediction for cluster: 1 obtained
+2021-11-24 18:46:44,609 - INFO - prediction_batch_data - Loading model for cluster: 2
+2021-11-24 18:46:44,660 - INFO - prediction_batch_data - Model for cluster: 2 loaded
+2021-11-24 18:46:44,661 - INFO - prediction_batch_data - Getting the prediction for the cluster: 2
+2021-11-24 18:46:44,673 - INFO - prediction_batch_data - Prediction for cluster: 2 obtained
+2021-11-24 18:46:44,674 - INFO - prediction_batch_data - User choose Dropping features in the dataframe
+2021-11-24 18:46:44,847 - INFO - prediction_batch_data - Prediction output file saved without keeping features
+2021-11-24 18:46:44,848 - INFO - prediction_batch_data - Looping through each cluster Completed

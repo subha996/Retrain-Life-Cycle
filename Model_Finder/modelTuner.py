@@ -25,8 +25,8 @@ class ModelTuner():
         self.cluster_no = cluster_no
         self.utils = DataGetter()
         self.model_finder = RegressionModelFinder(self.cluster_no) # Initializing model finder.
-        self.logger = setup_logger("modelTunerLig",
-                                    "model_tuner.log") # Initializing logger.
+        self.logger = setup_logger("modelTunerLog",
+                                    "./TrainingLogs/model_tuner.log") # Initializing logger.
         self.logger.info("Model tuner initialized. " + "-"*50) # Season divider.
         
 

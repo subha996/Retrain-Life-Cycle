@@ -93,3 +93,28 @@
 2021-11-19 00:12:49,808 - INFO - create_cluster - Clustering performed successfully
 2021-11-19 00:12:49,808 - INFO - create_cluster - Clustering performed successfully
 2021-11-19 00:12:49,808 - INFO - create_cluster - Clustering performed successfully
+2021-11-24 18:28:39,685 - INFO - get_cluster_number - Getting cluster number
+2021-11-24 18:28:44,432 - INFO - get_cluster_number - The elbow plot Saved to the local direcotry
+2021-11-24 18:28:44,446 - INFO - get_cluster_number - The elbow point found through KneeLocator: 4
+2021-11-24 18:28:44,447 - INFO - create_cluster - Performing clustering
+2021-11-24 18:28:44,594 - INFO - create_cluster - Clustering performed successfully
+2021-11-24 18:32:03,795 - INFO - get_cluster_number - Getting cluster number
+2021-11-24 18:32:05,859 - INFO - get_cluster_number - The elbow plot Saved to the local direcotry
+2021-11-24 18:32:05,860 - INFO - get_cluster_number - The elbow point found through KneeLocator: 4
+2021-11-24 18:32:05,860 - INFO - create_cluster - Performing clustering
+2021-11-24 18:32:05,993 - INFO - create_cluster - Clustering performed successfully
+2021-11-24 18:36:44,699 - INFO - get_cluster_number - Getting cluster number
+2021-11-24 18:36:47,951 - INFO - get_cluster_number - The elbow plot Saved to the local direcotry
+2021-11-24 18:36:47,954 - INFO - get_cluster_number - The elbow point found through KneeLocator: 4
+2021-11-24 18:36:47,955 - INFO - create_cluster - Performing clustering
+2021-11-24 18:36:48,170 - INFO - create_cluster - Clustering performed successfully
+2021-11-24 18:48:10,174 - INFO - get_cluster_number - Getting cluster number
+2021-11-24 18:48:12,117 - INFO - get_cluster_number - The elbow plot Saved to the local direcotry
+2021-11-24 18:48:12,118 - INFO - get_cluster_number - The elbow point found through KneeLocator: 4
+2021-11-24 18:48:12,119 - INFO - create_cluster - Performing clustering
+2021-11-24 18:48:12,257 - INFO - create_cluster - Clustering performed successfully
+2021-11-24 18:52:12,342 - INFO - get_cluster_number - Getting cluster number
+2021-11-24 18:52:15,089 - INFO - get_cluster_number - The elbow plot Saved to the local direcotry
+2021-11-24 18:52:15,090 - INFO - get_cluster_number - The elbow point found through KneeLocator: 4
+2021-11-24 18:52:15,090 - INFO - create_cluster - Performing clustering
+2021-11-24 18:52:15,278 - INFO - create_cluster - Clustering performed successfully

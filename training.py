@@ -21,13 +21,19 @@ class Train():
      
     """
     def __init__(self):
-        self.logger = setup_logger('Train', 'logs/train.log')
+        if not os.path.isdir("./TrainingLogs"):
+            os.mkdir("./TrainingLogs") # creating directory if not exist
+        self.logger = setup_logger('Train', 'TrainingLogs/train.log')
         self.utils = DataGetter() # object of DataGetter class
         self.trainPreprocessor = TrainingDataPreprocessing() # object of TrainingDataPreprocessing class
         self.clustering = KMenasClustering() # object of KMenasClustering class
         
-        # removing existing model directory
-        shutil.rmtree("./Models")  # deleting existing prebuild models.
+        # removing the directory if exist
+        if os.path.isdir("./Models"):
+             shutil.rmtree("./Models") # removing directory
+        if os.path.isdir("./BestParams"):
+            shutil.rmtree("./BestParams") # removing directory
+
     
     def preprocess(self):
         """
@@ -42,6 +48,9 @@ class Train():
         Version: 0.0.1
         """
         self.logger.info("Preprocess data...")
+        # getting data from database
+        # self.trainPreprocessor.pull_dataFromDB() # commented for testing
+        # preprocessing the data
         self.trainPreprocessor.preprocess_training_data() # this will save preprocess data into local directory
         self.logger.info("Preprocess data completed.")
 

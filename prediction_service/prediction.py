@@ -22,13 +22,15 @@ class Prediction():
 
     def __init__(self):
         
+        if not os.path.isdir("./predictionLogs"):
+            os.mkdir("./predictionLogs") # creating logs directory
         self.logger = setup_logger("prediction_log",
-                                    "logs/prediction_service.log")
+                                    "predictionLogs/prediction_service.log")
         self.logger.info("Prediction class initialized" + "*"*50)
         self.data_pull = DataPull() # creating object for data pull class
         self.utils = DataGetter() # creating object for DataGetter class
         self.preprocessor = DataPreprocessor() # creating object for DataPreprocessor class
-
+        self.output_path = os.path.join("./Prediction_data_from_DB", "prediction_data.csv") # full path of the file to be stored
         
     # Function to pull data from database and store in local machine
     def predict_data_pull(self):
@@ -42,10 +44,10 @@ class Prediction():
         """
         try:
             self.logger.info("Started pulling data from database")
-            output_path = os.path.join("./Prediction_data_from_DB", "prediction_data.csv") # full path of the file to be stored
+            
             self.data_pull.pull_data(keyspace="insurance1", 
                                     table="predict_data77",
-                                    output_file=output_path)
+                                    output_file=self.output_path)
             
             self.logger.info("Data pulled from database and stored in local machine")
             
@@ -69,9 +71,7 @@ class Prediction():
         """
         try:
             self.logger.info("Started preprocessing data...")
-            # getting the data form local directory
-            output_path = os.path.join("./Prediction_data_from_DB", "prediction_data.csv")
-            self.pred_data = self.utils.read_csv_file(output_path) # return dataframe
+            self.pred_data = self.utils.read_csv_file(self.output_path) # return dataframe
 
             # preprocessing the data
             self.logger.info("Preprocessing data...")

@@ -4,6 +4,7 @@
 #-----------------------------------------------------------------------------------------------------#
 import os
 from applicationlogger.setup_logger import setup_logger
+
 # Importing libraries for the model
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Ridge
@@ -18,8 +19,6 @@ import xgboost as xgb
 from sklearn.svm import SVR
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import GridSearchCV
-# from sklearn.metrics import r2_score
-# from return_data import data
 from utils.fileoperation import DataGetter
 
 
@@ -32,9 +31,13 @@ class RegressionModelFinder:
         Initialize the class with the logger.
         """
         self.logger = setup_logger("model_finder_log", 
-                                    "logs/model_finder.log") # Logger
+                                    "TrainingLogs/model_finder.log") # Logger
         self.utils = DataGetter() # Creating an object of DataGetter class
         self.cluster_no = cluster_no # Cluster number
+
+        # Creating BestParams directory
+        if not os.path.isdir("./BestParams"):
+            os.makedirs("./BestParams")
 
     
     # Function to find the best from Linear Regression
@@ -61,7 +64,7 @@ class RegressionModelFinder:
             return ("Linear Regression", self.linear_regression) # return linear regression trained model
         except Exception as e:
             print("Error in Running Linear Regression Model" + str(e))
-            self.logger.error("Error in Finding best model from linear regression." + str(e))
+            self.logger.error("Error in Finding best model from linear regression " + str(e))
             raise e
             
 
@@ -105,7 +108,7 @@ class RegressionModelFinder:
             max_iter = best_params["max_iter"]
             
             # Writing the best parameters in yaml file
-            best_params_path = os.path.join("BestParams", "Ridge_Cluster_", str(self.cluster_no) + "Ridge.yaml")
+            best_params_path = os.path.join("BestParams", "Ridge_Cluster_" + str(self.cluster_no), "Ridge.yaml")
             # making directory if not exists
             os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
             self.utils.write_yaml_file(best_params_path, best_params)
@@ -172,7 +175,7 @@ class RegressionModelFinder:
             selection = best_params["selection"]
             
             # Writing the best parameters in yaml file
-            best_params_path = os.path.join("BestParams", "Lasso_Cluster_", str(self.cluster_no) + "Lasso.yaml")
+            best_params_path = os.path.join("BestParams", "Lasso_Cluster_" + str(self.cluster_no), "Lasso.yaml")
             # making directory if not exists
             os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
             self.utils.write_yaml_file(best_params_path, best_params)
@@ -244,7 +247,7 @@ class RegressionModelFinder:
             selection = best_params["selection"]
             
             # Writing the best parameters in yaml file
-            best_params_path = os.path.join("BestParams", "ElasticNet_Cluster_", str(self.cluster_no) + "ElasticNet.yaml")
+            best_params_path = os.path.join("BestParams", "ElasticNet_Cluster_" + str(self.cluster_no), "ElasticNet.yaml")
             # making directory if not exists
             os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
             self.utils.write_yaml_file(best_params_path, best_params)
@@ -315,7 +318,7 @@ class RegressionModelFinder:
             max_features = best_params["max_features"]
 
             # Writing the best parameters in yaml file
-            best_params_path = os.path.join("BestParams", "DecisionTree_Cluster_", str(self.cluster_no) + "DecisionTree.yaml")
+            best_params_path = os.path.join("BestParams", "DecisionTree_Cluster_" + str(self.cluster_no), "DecisionTree.yaml")
             # making directory if not exists
             os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
             self.utils.write_yaml_file(best_params_path, best_params)
@@ -386,7 +389,7 @@ class RegressionModelFinder:
             oob_score = best_params["oob_score"]
 
             # Writing the best parameters in yaml file
-            best_params_path = os.path.join("BestParams", "RandomForest_Cluster_", str(self.cluster_no) + "RandomForest.yaml")
+            best_params_path = os.path.join("BestParams", "RandomForest_Cluster_" + str(self.cluster_no), "RandomForest.yaml")
             # making directory if not exists
             os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
             self.utils.write_yaml_file(best_params_path, best_params)
@@ -456,7 +459,7 @@ class RegressionModelFinder:
             max_features = best_params["max_features"]
 
             # Writing the best parameters in yaml file
-            best_params_path = os.path.join("BestParams", "GradientBoost_Cluster_", str(self.cluster_no) + "GradientBoost.yaml")
+            best_params_path = os.path.join("BestParams", "GradientBoost_Cluster_" + str(self.cluster_no), "GradientBoost.yaml")
             # making directory if not exists
             os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
             self.utils.write_yaml_file(best_params_path, best_params)
@@ -524,7 +527,7 @@ class RegressionModelFinder:
             n_estimators = best_params["n_estimators"]
 
             # Writing the best parameters in yaml file
-            best_params_path = os.path.join("BestParams", "AdaBoost_Cluster_", str(self.cluster_no) + "AdaBoost.yaml")
+            best_params_path = os.path.join("BestParams", "AdaBoost_Cluster_" + str(self.cluster_no), "AdaBoost.yaml")
             # making directory if not exists
             os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
             self.utils.write_yaml_file(best_params_path, best_params)
@@ -592,7 +595,7 @@ class RegressionModelFinder:
             oob_score = best_params["oob_score"]
 
             # Writing the best parameters in yaml file
-            best_params_path = os.path.join("BestParams", "ExtraTree_Cluster_", str(self.cluster_no) + "ExtraTree.yaml")
+            best_params_path = os.path.join("BestParams", "ExtraTree_Cluster_" + str(self.cluster_no), "ExtraTree.yaml")
             # making directory if not exists
             os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
             self.utils.write_yaml_file(best_params_path, best_params)
@@ -659,7 +662,7 @@ class RegressionModelFinder:
             max_depth = best_params["max_depth"]
 
             # Writing the best parameters in yaml file
-            best_params_path = os.path.join("BestParams", "XGBoost_Cluster_", str(self.cluster_no) + "XGBoost.yaml")
+            best_params_path = os.path.join("BestParams", "XGBoost_Cluster_" + str(self.cluster_no), "XGBoost.yaml")
             # making directory if not exists
             os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
             self.utils.write_yaml_file(best_params_path, best_params)
@@ -727,7 +730,7 @@ class RegressionModelFinder:
            
 
             # Writing the best parameters in yaml file
-            best_params_path = os.path.join("BestParams", "SVR_Cluster_", str(self.cluster_no) + "SVR.yaml")
+            best_params_path = os.path.join("BestParams", "SVR_Cluster_" + str(self.cluster_no), "SVR.yaml")
             # making directory if not exists
             os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
             self.utils.write_yaml_file(best_params_path, best_params)
@@ -776,9 +779,9 @@ class RegressionModelFinder:
             self.logger.info("Finding best for KNeighborsRegressor...")
             params = self.utils.read_yaml_file("params\KNeighborsRegressor_params.yaml") # Reading the parameters from yaml file: dictioanry
 
-            self.knr = KNeighborsRegressor() # creating an object of KNeighborsRegressor
+            self.knn = KNeighborsRegressor() # creating an object of KNeighborsRegressor
             # Creating grid search object
-            grid_search = GridSearchCV(self.knr, # KNeighborsRegressor
+            grid_search = GridSearchCV(self.knn, # KNeighborsRegressor
                                        params,  # parameters
                                        cv=2, # Cross Validation
                                        scoring="r2", # Scoring
@@ -796,9 +799,10 @@ class RegressionModelFinder:
             p = best_params["p"]
 
             # Writing the best parameters in yaml file
-            best_params_path = os.path.join("BestParams", "KNeighborsRegressor_Cluster_", str(self.cluster_no) + "KNeighborsRegressor.yaml")
+            best_params_path = os.path.join("BestParams", "KNeighborsRegressor_Cluster_" + str(self.cluster_no), "KNeighborsRegressor.yaml")
             # making directory if not exists
             os.makedirs(os.path.dirname(best_params_path), exist_ok=True)
+            self.utils.write_yaml_file(best_params_path, best_params)
             self.logger.info("Best Parameter value are stored in yaml file.")
 
             # Creating model with best parameters

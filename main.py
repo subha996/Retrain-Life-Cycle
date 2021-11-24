@@ -10,7 +10,8 @@ from flask_cors import CORS, cross_origin
 import flask_monitoringdashboard as dashboard
 
 from applicationlogger.setup_logger import setup_logger
-from training_data_ingestion.train_data_ingestion import TrainDataIngestion
+from TrainingDataValidation.trainDataValidation import TrainDataValidation
+from TrainDataIngestion.trainDataIngestion import TrainDataIngestion
 from training import Train
 from prediction_data_ingestion.prediction_data_ingestion import PredictionDataIngestion
 from prediction_service.prediction import Prediction
@@ -47,20 +48,22 @@ def train():  # defifing training rout
         if request.json["batch_folder_path"] is not None: # checking the folder path is not empty or not.
             raw_data_path = request.json["batch_folder_path"] # getting the folder path from the request.
             logger.info("Raw data path: {}".format(raw_data_path))
-            # creating object of raw data ingestin class
-            train_data_ingestion = TrainDataIngestion(raw_data_path) # ./Training_Batch_Files/
-            logger.info("Raw data ingestion object created.")
+            # creating object of raw data validation class
+            train_data_validation = TrainDataValidation(raw_data_path) # ./Training_Batch_Files/
+            # creating object of train data ingestion class
+            # train_data_ingestion = TrainDataIngestion() # ./Training_Batch_Files/ # coomented on 18-nov-2021
+            logger.info("Raw data ingestion object created.") 
 
             logger.info("Validating Raw Training data started...")
-            train_data_ingestion.validate_training_data() # validating the training data.
+            train_data_validation.validate_training_data() # validating the training data.
             logger.info("Validating Raw Training data completed.")
             
             logger.info("Data Transformation Started...")
-            train_data_ingestion.data_transformation() # performing data transformation.
+            # train_data_ingestion.data_transformation() # performing data transformation. # commented on 18-nov-2021
             logger.info("Data Transformation Completed.")
 
             logger.info("Data insertation into database Started...")
-            # train_data_ingestion.insert_data_into_database() # inserting data into database. 
+            # train_data_ingestion.insert_data_into_database() # inserting data into database. # commented on 18-nov-2021
             # above line shoud be commented for avoiding data insertion in to database.
             logger.info("Data insertation into database Completed.")
 
@@ -69,8 +72,7 @@ def train():  # defifing training rout
             logger.info("Train object created.")
 
             logger.info("Training Data is pulling from database and Preprocessing started...")
-            # train.preprocess() # pulling data from database and preprocessing.
-            # above line shoud be commented for avoiding data pulling and preprocessing. data is already in directory.
+            train.preprocess() # pulling data from database and preprocessing.
             logger.info("Training Data is pulling from database and Preprocessing completed.")
 
             # training the model

@@ -18,8 +18,39 @@ class TrainingDataPreprocessing():
         self.utils = DataGetter() # creating object for DataGetter class
         self.dataPull = DataPull() # creating object for DataPull class
         self.dataPreprocessor = DataPreprocessor() # creating object for DataPreprocessor class
+        self.train_file_path = os.path.join("Training_Data_From_DB", "train_insurance.csv") # path for saving the training data.
 
+   
+    def pull_dataFromDB(self):
+        """
+        This method shall use to Pull data from Database.
+        Parameter: None
+        Return: None: CSV file will be saved at "./Training_Data_From_DB/train_insurance.csv"
 
+        On Error: Log Error
+
+        Version: 0.0.1
+        """
+        try:
+            self.logger.info("Preprocessing training data started...")
+            # getting the data from database
+            
+            self.dataPull.pull_data(keyspace="insurance",
+                                    table="insurance_data",
+                                    output_file=self.train_file_path) # return dataframe.
+
+            # sleepin for 5 seconds
+            time.sleep(5) # it may take some time to pull data from database. and save it to csv file.
+            self.logger.info("DataPulling from Database Is completed.")
+
+        except Exception as e:
+            self.logger.error("Error while preprocessing training data. Error: {}".format(e))
+            raise e
+    
+    
+    
+    
+    
     # Functoion for preprocessing training data
     def preprocess_training_data(self):
         """
@@ -31,19 +62,9 @@ class TrainingDataPreprocessing():
 
         Versin: 0.0.1
         """
-        try:
-            self.logger.info("Preprocessing training data started...")
-            # getting the data from database
-            train_file_path = os.path.join("Training_Data_From_DB", "train_insurance.csv")
-            self.dataPull.pull_data(keyspace="insurance",
-                                    table="insurance_data",
-                                    output_file=train_file_path) # return dataframe.
-
-            # sleepin for 5 seconds
-            time.sleep(5) # it may take some time to pull data from database. and save it to csv file. 
-
+        try: 
             # Reading the data from local directory.
-            data = self.utils.read_csv_file(train_file_path) # return dataframe.
+            data = self.utils.read_csv_file(self.train_file_path) # return dataframe.
 
             # imputing missing value if present
             self.logger.info("Imputing missing values if present...")
