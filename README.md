@@ -9,7 +9,7 @@ Base Structure for Retrain machine learning model with Hyperparameter tuning. Ma
  
 <h2 align="center"> ⛩ Architecture </h2>
 <p align="center">
-<img align="center" src="https://github.com/subha996/Retrain-Life-Cycle/blob/main/Archi%201.drawio%20(3).png" >
+<img align="center" src="https://github.com/subha996/Retrain-Life-Cycle/blob/main/retrain_lyf1.png" >
 </p>
 
 ### To do before running
